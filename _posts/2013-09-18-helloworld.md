@@ -18,6 +18,8 @@ Markdown typical test:
 2. that
 3. other
 
+<!-- more -->
+
 ```c
 #include <std.io>
 int main() {
