@@ -10,7 +10,7 @@ tags: [Soft-Skill]
 
 ###前言
 
-本文为**[《How to Read a Paper》](http://pan.baidu.com/share/link?shareid=689045478&uk=4130601504 "How to Read a Paper")**的阅读笔记。原文作者为ACM Fellow, Srinivasan Keshav。文中提出的一些阅读文献的方法应该对在我们所有做技术的人都有借鉴作用吧，尤其是学术工作者。建议有兴趣的话可下载阅读一下英文原文。
+本文为**[《How to Read a Paper》](http://pan.baidu.com/share/link?shareid=1794101145&uk=4130601504 "How to Read a Paper")**的阅读笔记。原文作者为ACM Fellow, Srinivasan Keshav。文中提出的一些阅读文献的方法应该对在我们所有做技术的人都有借鉴作用吧，尤其是学术工作者。建议有兴趣的话可下载阅读一下英文原文。
 
 <br/>
 ###简介
