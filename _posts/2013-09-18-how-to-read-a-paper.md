@@ -3,8 +3,8 @@ layout: post
 title: "How to Read a Paper"
 description: "《How to Read a Paper》(From ACM Fellow, Srinivasan Keshav)读后笔记"
 keywords: "skill, read"
-category: Academic
-tags: [Soft-Skill]
+category: academic
+tags: [soft-skill]
 ---
 {% include JB/setup %}
 
