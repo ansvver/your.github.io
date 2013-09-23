@@ -4,7 +4,7 @@ title: "方体计算:基于关系OLAP的方法"
 description: "数据立方体计算是数据仓库实现的一项基本任务..."
 keywords: "DM, Algorithm"
 category: 数据挖掘
-tags: [Soft-Skill]
+tags: [DM, Algorithm]
 ---
 {% include JB/setup %}
 
@@ -50,4 +50,6 @@ tags: [Soft-Skill]
 
 	当存在子女方体时，由最小的、先前计算的子女方体计算父母方体（即更泛化的方体）通常更有效。
 
-例如，为了计算销售方体$$\C_{branch}$$
+例如，为了计算销售方体
+$$C_{branch}$$
+
