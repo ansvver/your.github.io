@@ -52,8 +52,12 @@ tags: [DM, Algorithm]
 
 例如，为了计算销售方体
 
-$$\sum_{i\to 2}^i$$
+$$
+	\sum_{i\to 2}^i
+$$
 
 
-$$C_{branch}$$
+$$
+	C_{branch}
+$$
 
