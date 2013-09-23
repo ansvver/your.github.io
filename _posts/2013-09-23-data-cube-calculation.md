@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "方体计算:基于关系OLAP的方法"
-description: "《How to Read a Paper》(From ACM Fellow, Srinivasan Keshav)读后笔记"
-keywords: "skill, read"
-category: Academic
+description: "数据立方体计算是数据仓库实现的一项基本任务..."
+keywords: "DM, Algorithm"
+category: 数据挖掘
 tags: [Soft-Skill]
 ---
 {% include JB/setup %}
@@ -21,10 +21,13 @@ tags: [Soft-Skill]
 - 自底向上的计算方法
 - H-cubing技术
 
+<!-- more -->
+
 ###数据立方体有效的优化技术
 
 尽管ROLAP和MOLAP可能使用不同的立方体计算技术，但是某些优化“技巧”可以在不同的数据表示之间共享。
 
+<br/>
 ####优化技术1：排序、散列和分组。
 
 	应当对维属性使用排序、散列和分组操作，以便对相关元组重新定序和聚类。
@@ -33,6 +36,7 @@ tags: [Soft-Skill]
 
 例如，为了用branch，day和item计算总销量，更有效的方法是先按branch分组，再按day对元组或单元排序，然后按item名分组。
 
+<br/>
 ####优化技术2：同时聚集和缓存中间结果。
 	
 	在立方体计算中，由先前计算的较低层聚集计算较高层聚集，而不是由基本事实表计算是有效的。
@@ -40,8 +44,9 @@ tags: [Soft-Skill]
 
 例如，为了按branch计算销售，我们可以使用较低层方体（如按branch和day的销售）计算导出的中间结果。这种技术可以进一步扩展，进行来摊扫描（即同时计算尽可能多的方体，缓冲磁盘读）。
 
+<br/>
 ####优化技术3：当存在多个子女方体时，由最小的子女聚集。
 
 	当存在子女方体时，由最小的、先前计算的子女方体计算父母方体（即更泛化的方体）通常更有效。
 
-例如，为了计算销售方体$$C_{branch}$$
+例如，为了计算销售方体$$\[C_{branch}\]$$
