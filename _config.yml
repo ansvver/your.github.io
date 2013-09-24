@@ -25,7 +25,8 @@ author :
   facebook : 
   feedburner : 
   weibo : u/3777448665
-
+theme : geekeeper
+  
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
@@ -64,9 +65,9 @@ JB :
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
   
-  BASE_PATH : false
+  #  BASE_PATH : false
   
-  #  BASE_PATH : [production_url]
+  BASE_PATH : 
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -77,9 +78,9 @@ JB :
   #   /assets
   #
   
-  ASSET_PATH : false
+  #  ASSET_PATH : false
 
-  #  ASSET_PATH : [BASE_PATH]/assets/themes/geekeeper
+  ASSET_PATH : [BASE_PATH]/assets/themes/geekeeper
   
   
   # These paths are to the main pages Jekyll-Bootstrap ships with.
