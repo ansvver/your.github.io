@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "方体计算:基于关系OLAP的方法"
+title: "方体计算：基于关系OLAP的方法"
 description: "数据立方体计算是数据仓库实现的一项基本任务..."
 keywords: "DM, Algorithm"
 category: 数据挖掘
