@@ -1,0 +1,132 @@
+/* This is for your Custom Content. */
+
+h1, h2, h3, h4, h5, h6 ,b, strong {
+  @include text-shadow(255, 2px, 170);
+  small {
+    @include text-shadow;
+  }
+}
+
+h5, h6, strong {
+  @include text-shadow;
+}
+
+.tag_box a span {
+  vertical-align: super;
+  font-size: 0.8em;
+}
+
+.row .visible-lg {
+  margin-top:40px;
+}
+
+.col-md-9 {
+  .wrapper p img {
+    max-width: 30%;
+    margin: 0px auto;
+    display: block;
+  }
+  p {
+    img {
+      max-width: 100%;
+      margin: 0px auto;
+      display: block;
+      @include box-shadow(1px, 2px, 4px, 0.6);
+      &:hover {
+        @include box-shadow(1px, 3px, 4px, 0.8);
+        @include transition;
+      }
+    }
+    code {
+      @include box-shadow(1px, 1px, 1px, 0.067);
+      @include border(0.067);
+    }
+  }
+}
+
+.container > .navbar-header, .container > .navbar-collapse {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+a {
+  @include transition;
+  color: rgb(0, 136, 204);
+  &:hover, &:focus {
+    color: rgb(0, 85, 128);
+    text-decoration: none;
+    @include text-shadow(255, 1px, 170);
+  }
+}
+
+.navbar .brand, .navbar .nav > li > a {
+  @include text-shadow(255, 0px, 170);
+  &:hover, &:focus {
+    color: rgb(51, 51, 51);
+    @include text-shadow(255, 1px, 170);
+  }
+}
+
+.page-header {
+    border-bottom: 1px dashed rgb(238, 238, 238);
+}
+
+.col-md-9 .wrapper {
+  @include border(0.067);
+  @include border-radius(10px);
+  @include box-shadow(1px, 2px, 4px, 0.067);
+  padding: 5px;
+  margin: 5px 0px;
+  .entry-title {
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.067);
+  }
+  &:hover {
+    @include transition;
+    background-color: rgba(245, 245, 245, 0.7);
+    @include border(0.167);
+    @include box-shadow(2px, 3px, 4px, 0.167);
+  }
+}
+
+section {
+  @include border(0.067);
+  @include border-radius(5px);
+  @include box-shadow(1px, 2px, 3px, 0.067);
+  padding: 0px 5px;
+  margin: 5px 0px;
+  h4 {
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.067);
+  }
+  &:hover {
+    @include transition;
+    background-color: rgba(245, 245, 245, 0.7);
+    @include border(0.167);
+    @include box-shadow(1px, 3px, 4px, 0.167);
+  }
+}
+
+.highlight pre {
+  &:hover {
+    @include transition;
+    @include border(0.35);
+    @include box-shadow(1px, 2px, 2px, 0.167);
+  }
+}
+
+footer {
+  p {
+    line-height: 100%;
+  }
+}
+
+blockquote {
+  p {
+    font-style: oblique;
+  }
+}
+
+.nav > li > form {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
