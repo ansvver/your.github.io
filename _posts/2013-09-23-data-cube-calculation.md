@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "方体计算：基于关系OLAP的方法"
+title: "基于关系OLAP的方体计算及其优化"
 description: "数据立方体计算是数据仓库实现的一项基本任务..."
 keywords: "DM, Algorithm"
 category: 数据挖掘
@@ -22,6 +22,8 @@ tags: [DM, Algorithm]
 - H-cubing技术
 
 <!-- more -->
+
+<br />
 
 ###数据立方体有效的优化技术
 
@@ -50,4 +52,6 @@ tags: [DM, Algorithm]
 ####优化技术4：可以使用Apriori剪枝方法有效地计算冰山立方体。
 
 对于数据立方体，Apriori性质表述如下：如果给定的单元不满足最小支持度，则该单元的后代（即更特殊化或更详细的版本）也都不满足最小支持度。使用这种性质可以显著地降低冰山立方体的计算量。
+
+
 
