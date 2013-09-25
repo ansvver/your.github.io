@@ -54,7 +54,7 @@ tags: [DM, Algorithm]
 
 	当存在子女方体时，由最小的、先前计算的子女方体计算父母方体（即更泛化的方体）通常更有效。
 	
-例如，为了计算销售方体 $$C_{branch}$$，当存在两个先前计算的方体$$C_{\{branch,year\}}$$和$$C_{\{branch,item\}}$$时,如果不同的商品远比不同的年份多，则使用$$C_{\{branch,year\}}$$比使用$$C_{\{branch,item\}}$$计算$$C_{branch}$$显然更有效。
+> 例如，为了计算销售方体 $$C_{branch}$$，当存在两个先前计算的方体$$C_{\{branch,year\}}$$和$$C_{\{branch,item\}}$$时,如果不同的商品远比不同的年份多，则使用$$C_{\{branch,year\}}$$比使用$$C_{\{branch,item\}}$$计算$$C_{branch}$$显然更有效。
 
 <br />
 
