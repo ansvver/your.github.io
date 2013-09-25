@@ -4,7 +4,7 @@ title: "基于关系OLAP的方体计算及其优化"
 description: "数据立方体计算是数据仓库实现的一项基本任务..."
 keywords: "DM, Algorithm"
 category: 数据挖掘
-tags: [DM, Algorithm]
+tags: [DM]
 ---
 {% include JB/setup %}
 
