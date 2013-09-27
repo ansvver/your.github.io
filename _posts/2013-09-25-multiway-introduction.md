@@ -4,7 +4,7 @@ title: "完全立方体计算之多路数组聚焦"
 description: "数据立方体计算是数据仓库实现的一项基本任务..."
 keywords: "DM, Algorithm"
 category: 数据挖掘
-tags: [DM]
+tags: [DM, Algorithm]
 ---
 {% include JB/setup %}
 
