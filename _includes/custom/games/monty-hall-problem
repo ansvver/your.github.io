@@ -1,8 +1,29 @@
+<style>
+
+	#game{ 
+		MARGIN-RIGHT: auto;
+		MARGIN-LEFT: auto;
+		height:200px;
+		background:#F00;
+		width:400px;
+		vertical-align:middle;
+		line-height:200px;
+	}
+	
+</style>
+
 <script type="text/javascript">
+	
+	$(document).ready(function(){
+		
+	});
+	
 </script>
 
-<div id="game" style="background-color:yellow;">
+
+
+<div id="game" style="">
 	
-	HelloWorld!!!
+	<input type="button" style="align:center;">开始游戏</intput>
 	
 </div>
