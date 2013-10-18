@@ -1,11 +1,11 @@
 <!--
 <style>
-
+	
 	#game{ 
 		MARGIN-RIGHT: auto;
 		MARGIN-LEFT: auto;
 		height:200px;
-		background:#F00;
+		background-color:yellow;
 		width:400px;
 		vertical-align:middle;
 		line-height:200px;
@@ -21,7 +21,6 @@
 	
 </script>
 -->
-
 
 <div id="game">
 	<input type="button" class="button" value="开始游戏"></intput>
