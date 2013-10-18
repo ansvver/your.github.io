@@ -1,3 +1,4 @@
+<!--
 <style>
 
 	#game{ 
@@ -19,11 +20,11 @@
 	});
 	
 </script>
-
+-->
 
 
 <div id="game" style="">
 	
-	<input type="button" style="align:center;">开始游戏</intput>
+	<input type="button" style="margin:auto" value="开始游戏"></intput>
 	
 </div>
