@@ -10,4 +10,4 @@ tags: [Math, Fun]
 
 
 
-{% include custom/games/monty-hall-problem %}
+{% include custom/games/monty-hall-problem.html %}
