@@ -3,7 +3,10 @@
 <script type="text/javascript">
 	
 	function newGame(){
-		$("#game").append("<div style='width: 60px; height: 60px; margin: 10px; float: left; background-color: yellow'>go</div><div style='width: 60px; height: 60px; margin: 10px; float: left; background-color: yellow'>go</div><div style='width: 60px; height: 60px; margin: 10px; float: left; background-color: yellow'>go</div><p><input type='button' id='goo' value='开始游戏goo'></button></p>");
+		var $newdiv = $( "<div id='object1' style='width: 60px; height: 60px; margin: 10px; float: left; background-color: yellow'/>" );
+		var $newtext = $( "<lable>go go go </lable>" );
+		$("#game").append(" $newdiv ");
+		$("#game").append("$newtext");
 	}
 	
 	$(document).ready(function(){
