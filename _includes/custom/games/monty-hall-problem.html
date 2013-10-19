@@ -2,9 +2,14 @@
 
 <script type="text/javascript">
 	
+	function newGame(){
+		$("#game").append("<div width=100px heigth=100px style='background-color:yellow'></div>");
+	}
+	
 	$(document).ready(function(){
 		$("#go").click(function(){
-			
+			$("#go").hide();
+			newGame();
 		});
 	});
 	
