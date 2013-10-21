@@ -21,6 +21,11 @@
 
 <script type="text/javascript">
 	
+	/*
+	.click(function(){
+				$(this).addClass("select_box"); 
+			})
+	*/
 	var win_num = 0;
 	var lost_num = 0;
 	var game_num = 0;
@@ -33,15 +38,18 @@
 		game_num++;
 		var i;
 		var i_id;
-
+		var $newblock = $("<div class='new_block'></div>");
+		$newblock.appendTo($("#game"));
 		for(i=0; i<3; i++) {
 			i_id = game_num + "" + i;
 			$newbox.attr("id", i_id);
-			$("#game").append($newbox.clone().click(function(){
-				$(this).addClass("select_box"); 
-				$(".init_box").unbind('click');
-			}));
+			$newblock.append($newbox.clone());
 		}
+		$newblock.one(click, none, function(){
+			$(this).children().click(function(){
+				$(this).addClass("select_box");
+			});
+		})
 
 		var $newtext = $( "<p>go go go</p>" );
 		//var $clear = $("<div clear:both;></div><br/>")
