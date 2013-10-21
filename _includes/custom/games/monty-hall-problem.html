@@ -33,14 +33,13 @@
 		game_num++;
 		var i;
 		var i_id;
+
 		for(i=0; i<3; i++) {
 			i_id = game_num + "" + i;
 			$newbox.attr("id", i_id);
 			$("#game").append($newbox.clone().click(function(){
 				$(this).addClass("select_box"); 
-				for(var j=0; j<3; j++) {
-					$(".init_box").unbind();
-				}
+				$(".init_box").unbind('click');
 			}));
 		}
 
@@ -60,7 +59,7 @@
 	
 </script>
 
-<div id="game" class="buttons">
+<div id="game">
 	<input type="button" id="go" value="开始游戏"></button>
 </div>
 
