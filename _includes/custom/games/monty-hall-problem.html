@@ -39,7 +39,7 @@
 			$("#game").append($newbox.clone().click(function(){
 				$(this).addClass("select_box"); 
 				for(var j=0; j<3; j++) {
-					$("#game_num" + j).unbind("click");
+					$(".init_box").unbind();
 				}
 			}));
 		}
