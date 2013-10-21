@@ -126,7 +126,8 @@ button.regular, .buttons a.regular{
 	var $newbox = $( "<div/>" );
 	//$newbox.html("点击选择");
 	$newbox.addClass("init_box");
-	$(div.init_box).click(function(){
+	$("div.init_box").click(function(){
+		alert("***********");
 		$(this).addClass("select_box");
 	});
 
