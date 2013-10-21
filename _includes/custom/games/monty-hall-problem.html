@@ -24,8 +24,9 @@
 	$newbox.addClass("init_box");
 
 	function newGame(){
-		for(var i=0; i<3; i++) {
-			$(#game).append(newbox);
+		var i;
+		for(i=0; i<3; i++) {
+			$(#game).append($newbox);
 		}
 
 		var $newtext = $( "<p>go go go</p>" );
