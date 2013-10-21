@@ -9,7 +9,7 @@
 		background-color: yellow;
 		text-align:center;
 		line-height: 60px;
-		font-size: small;
+		font-size: xx-small;
 	}
 
 </style>
@@ -25,10 +25,14 @@
 	$newbox.addClass("init_box");
 
 	function newGame(){
+		game_num++;
 		var i;
+		var i_id;
 		for(i=0; i<3; i++) {
-			//$("#game").append($newbox);
-			$newbox.appendTo($("#game"));
+			i_id = game_num + "" + i;
+			$newbox.attr("id", i_id);
+			$("#game").append($newbox);
+			//$newbox.appendTo($("#game"));
 		}
 
 		var $newtext = $( "<p>go go go</p>" );
