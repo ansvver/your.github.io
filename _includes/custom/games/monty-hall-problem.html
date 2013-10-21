@@ -137,7 +137,7 @@ button.regular, .buttons a.regular{
 		for(i=0; i<3; i++) {
 			i_id = game_num + "" + i;
 			$newbox.attr("id", i_id);
-			$("#game").append($newbox.clone());
+			$("#game").append($newbox.clone(true));
 			//$newbox.appendTo($("#game"));
 		}
 
@@ -177,7 +177,7 @@ button.regular, .buttons a.regular{
 	$(document).ready(function(){
 		$("#go").click(function(){
 			$("#go").hide();
-			newGame2();
+			newGame();
 		});
 	});
 	
