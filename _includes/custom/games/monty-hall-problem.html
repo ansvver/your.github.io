@@ -11,6 +11,10 @@
 		line-height: 60px;
 		font-size: xx-small;
 	}
+	.select_box {
+		border-width: 2px;
+		border-color: red;
+	}
 
 </style>
 
@@ -23,6 +27,9 @@
 	var $newbox = $( "<div/>" );
 	$newbox.html("点击选择");
 	$newbox.addClass("init_box");
+	$newbox.click(function(){
+		$newbox.addClass("select_box");
+	});
 
 	function newGame(){
 		game_num++;
