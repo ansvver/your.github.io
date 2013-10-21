@@ -25,11 +25,14 @@
 	var game_num = 0;
 
 	var $newbox = $( "<div/>" );
-	$newbox.html("点击选择");
-	$newbox.addClass("init_box");
-	$newbox.click(function(){
+	//$newbox.html("点击选择");
+	$select_box = $("<input type=button>选择</input>");
+	$select_box.click(function(){
 		$newbox.addClass("select_box");
 	});
+	$newbox.append($select_box);
+	$newbox.addClass("init_box");
+
 
 	function newGame(){
 		game_num++;
