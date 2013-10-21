@@ -38,14 +38,14 @@
 		game_num++;
 		var i;
 		var i_id;
-		var $newblock = $("<div class='new_block'></div>");
+		var $newblock = $("<span class='new_block'></span>");
 		$newblock.appendTo($("#game"));
 		for(i=0; i<3; i++) {
 			i_id = game_num + "" + i;
 			$newbox.attr("id", i_id);
 			$newblock.append($newbox.clone());
 		}
-		$newblock.one("click", none, function(){
+		$newblock.one("click", "dummy", function(){
 			$(this).children().click(function(){
 				$(this).addClass("select_box");
 			});
