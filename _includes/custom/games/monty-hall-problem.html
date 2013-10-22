@@ -40,6 +40,12 @@
 		var $clear = $("<div clear:both;></div><br/>");
 		$("#game").append("<div style='clear:both;'>go go go</div>");
 		//$("#game").append($newtext);
+
+		$("#game").delegate(".a","click",function(){
+			$(this).addClass("select_box");
+			$(this).html("我选这个");
+			$(".a").removeClass("a");
+		});
 	}
 
 	
@@ -47,11 +53,6 @@
 		$("#go").click(function(){
 			$("#go").hide();
 			newGame();
-		});
-		
-		$("#game").delegate(".a","click",function(){
-			$(this).addClass("select_box");
-			$(".a").removeClass("a");
 		});
 	});
 	
