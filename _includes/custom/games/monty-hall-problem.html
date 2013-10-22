@@ -41,7 +41,7 @@
 			$newbox.attr("id", i_id);
 			$("#game").append($newbox.clone().click(function(){
 				$(this).addClass("select_box"); 
-				$(".init_box").unbind();
+				$("div.init_box").removeAttr("onclick");
 			}));
 		}
 
