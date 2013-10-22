@@ -20,17 +20,11 @@
 </style>
 
 <script type="text/javascript">
-	
-	/*
-
-	*/
 	var win_num = 0;
 	var lost_num = 0;
 	var game_num = 0;
 
-	var $newbox = $( "<div/>" );
-	$newbox.html("点击选择");
-	$newbox.addClass("init_box");
+	var $newbox = $( "<div class='a'/>" ).html("点击选择").addClass("init_box");
 
 	function newGame(){
 		game_num++;
@@ -39,14 +33,11 @@
 		for(i=0; i<3; i++) {
 			i_id = game_num + "" + i;
 			$newbox.attr("id", i_id);
-			$("#game").append($newbox.clone().bind("click", function(){
-				$(this).addClass("select_box"); 
-				$("div.init_box").unbind("click");
-			}));
+			$("#game").append($newbox.clone());
 		}
 
 		var $newtext = $( "<p>go go go</p>" );
-		//var $clear = $("<div clear:both;></div><br/>")
+		var $clear = $("<div clear:both;></div><br/>");
 		$("#game").append("<div style='clear:both;'>go go go</div>");
 		//$("#game").append($newtext);
 	}
@@ -56,6 +47,11 @@
 		$("#go").click(function(){
 			$("#go").hide();
 			newGame();
+		});
+		
+		$("#game").delegate(".a","click",function(){
+			$(this).addClass("select_box");
+			$(".a").removeClass("a");
 		});
 	});
 	
