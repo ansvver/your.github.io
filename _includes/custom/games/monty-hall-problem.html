@@ -11,6 +11,17 @@
 		line-height: 60px;
 		font-size: xx-small;
 	}
+	.change_box {
+		width: 70px; 
+		height: 20px; 
+		margin: 10px; 
+		float: left; 
+		background-color: blue;
+		text-align:center;
+		line-height: 20px;
+		font-size: xx-small;
+		color: white;
+	}
 	.select_box {
 		border-width: 2px;
 		border-color: red;
@@ -58,7 +69,7 @@
 			}
 		}
 
-		$("#game").append("<br/>");
+		$("#game").append("<br><br>");
 
 		$("#game").delegate(".a","click",function(){
 			$(this).addClass("select_box").html("我选这个");
@@ -92,7 +103,7 @@
 
 			$(".a").removeClass("a");
 
-			$("#game").append("<div style='clear:both;'>To 换 or Not To 换?<button class='change btn'>换换更健康</button><button class='not_change btn'>换你妹夫啊</button></div><br/>");
+			$("#game").append("<div style='clear:both;'>To 换 or Not To 换?<div class='change change_box'>换换更健康</div><div class='not_change change_box'>换你妹夫啊</div></div><br/>");
 
 		});
 		
@@ -109,7 +120,8 @@
 </script>
 
 <div id="game">
-	<input type="button" id="go" value="开始游戏" class="btn"></button>
+	<input type="button" id="go" value="开始游戏"></button>
 </div>
 
+<br/>
 <br/>
