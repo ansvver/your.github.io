@@ -35,7 +35,7 @@
 		var i;
 		var i_id;
 		var prise = parseInt(Math.random() * 3);
-		var help_id;
+
 		for(i=0; i<3; i++) {
 			i_id = game_num + "" + i;
 			$newbox.attr("id", i_id);
@@ -56,15 +56,29 @@
 			
 			//产生一个随机数1或2
 			var re = parseInt(Math.random() * 2) + 1;
+			var help_id;
+			var change_id;
+			var next_id;
 
 			var this_id = $(this).attr("id");
 			var index = this_id.substring(this_id.length - 1, this_id.length);
 			if( $(this).hasClass("prise") ) {
 				help_id = game_num + "" + ((parseInt( index ) + re) % 3);
+				change_id = game_num + "" + ((parseInt( index ) + (re % 2 ) + 1 ) % 3);
 				$("#" + help_id).addClass("help_box").html("木有");
+				$("#" + change_id).html("???");
 			} else {
-				help_id = game_num + "" + ((parseInt( index ) + re) % 3);
-				$("#" + help_id).addClass("help_box").html("木有2");				
+				next_id = game_num + "" + ((parseInt( index ) + 1) % 3);
+				if( $("#" + next_id).hasClass("prise") ) {
+					help_id = game_num + "" + ((parseInt( index ) + 2) % 3);
+					$("#" + help_id).addClass("help_box").html("木有");
+					$("#" + next_id).html("???");
+				} else {
+					help_id = next_id;
+					$("#" + help_id).addClass("help_box").html("木有");
+					change_id = game_num + "" + ((parseInt( index ) + 2) % 3);			
+					$("#" + change_id).html("???");	
+				}
 			}
 
 
