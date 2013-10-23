@@ -55,7 +55,7 @@
 			//产生一个随机数1或2
 			var re = parseInt(Math.random() * 2) + 1;
 
-			var this_id = $(this).id;
+			var this_id = $(this).attr("id");
 			var index = this_id.substring(this_id.length - 1, this_id.length);
 			if( $(this).hasClass("prise") ) {
 				help_id = game_num + "" + ((parseInt( index ) + re) % 3);
