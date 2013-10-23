@@ -13,16 +13,26 @@
 	}
 	.change_box {
 		width: 70px; 
-		height: 20px; 
+		height: 30px; 
 		margin: 10px; 
 		float: left; 
 		background-color: white;
 		text-align:center;
-		line-height: 20px;
+		line-height: 30px;
 		font-size: xx-small;
 		border-width: 2px;
 		border-style: solid;
 		border-color: green;
+		color: green;
+		CURSOR: hand;
+	}
+	.text_box {
+		width: 120px; 
+		height: 30px; 
+		margin: 10px; 
+		float: left; 
+		text-align:center;
+		line-height: 30px;
 		color: green;
 	}
 	.select_box {
@@ -106,7 +116,7 @@
 
 			$(".a").removeClass("a");
 
-			$("#game").append("<div style='clear:both;'><div style='float: left;'>To 换 or Not To 换?</div><div class='change change_box'>换换更健康</div><div class='not_change change_box'>换你妹夫啊</div></div><br/>");
+			$("#game").append("<div style='clear:both;'><div class='text_box'>To 换 or Not To 换?</div><div class='change change_box'>换换更健康</div><div class='not_change change_box'>换你妹夫啊</div></div><br/>");
 
 		});
 		
