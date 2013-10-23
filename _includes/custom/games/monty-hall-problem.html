@@ -16,6 +16,9 @@
 		border-color: red;
 		border-style: solid;
 	}
+	.help_box {
+		background-color: green;
+	}
 
 </style>
 
@@ -30,9 +33,14 @@
 		game_num++;
 		var i;
 		var i_id;
+		var prise = parseInt(Math.random() * 3);
+		var help_id;
 		for(i=0; i<3; i++) {
 			i_id = game_num + "" + i;
 			$newbox.attr("id", i_id);
+			if(prise == i) {
+				$newbox.addClass("prise");
+			}
 			$("#game").append($newbox.clone());
 		}
 
@@ -42,8 +50,22 @@
 		//$("#game").append($newtext);
 
 		$("#game").delegate(".a","click",function(){
-			$(this).addClass("select_box");
-			$(this).html("我选这个");
+			$(this).addClass("select_box").html("我选这个");
+			
+			//产生一个随机数1或2
+			var re = parseInt(Math.random() * 2) + 1;
+
+			var this_id = $(this).id;
+			var index = this_id.substring(this_id.length - 1, this_id.length);
+			if( $(this).hasClass("prise") ) {
+				help_id = game_num + "" + ((parseInt( index ) + re) % 3);
+				$("#" + help_id).addClass("help_box").html("神马也木有");
+			} else {
+				help_id = game_num + "" + ((parseInt( index ) + re) % 3);
+				$("#" + help_id).addClass("help_box").html("神马也木有2");				
+			}
+
+
 			$(".a").removeClass("a");
 		});
 	}
