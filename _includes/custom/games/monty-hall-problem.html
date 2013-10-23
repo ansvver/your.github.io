@@ -20,9 +20,7 @@
 		background-color: green;
 		color: white;
 	}
-	.a {
-		outline: 1px solid red;
-	}
+
 
 </style>
 
@@ -48,11 +46,6 @@
 				$("#game").append($newbox.clone());
 			}
 		}
-
-		var $newtext = $( "<p>go go go</p>" );
-		var $clear = $("<div clear:both;></div><br/>");
-		$("#game").append("<div style='clear:both;'>go go go</div>");
-		//$("#game").append($newtext);
 
 		$("#game").delegate(".a","click",function(){
 			$(this).addClass("select_box").html("我选这个");
@@ -81,13 +74,13 @@
 				}
 			}
 			$("#" + help_id).addClass("help_box").html("木有");		
-			$("#" + help_id).animate({outlineWidth:"10px"}, "slow").animate({outlineWidth:"0px"}, "slow");
 			$("#" + change_id).html("???");	
-
-
+			//$("#" + help_id).animate({outlineWidth:"10px"}, "slow").animate({outlineWidth:"0px"}, "slow");
 
 			$(".a").removeClass("a");
 		});
+		
+		$("#game").append("<div style='clear:both;'>R u forking sure?<button class='change'></button><button class='not_change'></button></div>");
 	}
 
 	
