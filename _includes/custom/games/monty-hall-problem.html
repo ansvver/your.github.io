@@ -18,6 +18,7 @@
 	}
 	.help_box {
 		background-color: green;
+		color: white;
 	}
 
 </style>
@@ -39,9 +40,10 @@
 			i_id = game_num + "" + i;
 			$newbox.attr("id", i_id);
 			if(prise == i) {
-				$newbox.addClass("prise");
+				$("#game").append($newbox.clone().addClass("prise"));
+			} else {
+				$("#game").append($newbox.clone());
 			}
-			$("#game").append($newbox.clone());
 		}
 
 		var $newtext = $( "<p>go go go</p>" );
@@ -59,10 +61,10 @@
 			var index = this_id.substring(this_id.length - 1, this_id.length);
 			if( $(this).hasClass("prise") ) {
 				help_id = game_num + "" + ((parseInt( index ) + re) % 3);
-				$("#" + help_id).addClass("help_box").html("神马也木有");
+				$("#" + help_id).addClass("help_box").html("木有");
 			} else {
 				help_id = game_num + "" + ((parseInt( index ) + re) % 3);
-				$("#" + help_id).addClass("help_box").html("神马也木有2");				
+				$("#" + help_id).addClass("help_box").html("木有2");				
 			}
 
 
