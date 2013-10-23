@@ -20,6 +20,9 @@
 		background-color: green;
 		color: white;
 	}
+	.a {
+		outline: 0px solid red;
+	}
 
 </style>
 
@@ -78,7 +81,7 @@
 				}
 			}
 			$("#" + help_id).addClass("help_box").html("木有");		
-			$("#" + help_id).animate({outline:"5px solid red"}).animate({outline:"0px"});
+			$("#" + help_id).animate({outlineWidth:"10px"}).animate({outlineWidth:"0px"});
 			$("#" + change_id).html("???");	
 
 
