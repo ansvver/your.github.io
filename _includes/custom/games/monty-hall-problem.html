@@ -89,6 +89,11 @@
 		$("#game").delegate(".a","click",function(){
 			$(this).addClass("select_box").html("我选这个");
 			
+			var $tt_div = $("<div style='clear:both;' id='s" + game_num + "'><div class='text_box'>请选择：To 换 or Not To 换?</div><div class='change btn_box'>换换更健康</div><div class='not_change btn_box'>换你妹夫啊</div></div><br/>");
+
+			$("#game").append($tt_div);	
+
+					
 			//产生一个随机数1或2
 			var re = parseInt(Math.random() * 2) + 1;
 			var help_id;
@@ -117,10 +122,6 @@
 			//$("#" + help_id).animate({outlineWidth:"10px"}, "slow").animate({outlineWidth:"0px"}, "slow");
 
 			$(".a").removeClass("a");
-
-			var $tt_div = $("<div style='clear:both;' id='s" + game_num + "'><div class='text_box'>请选择：To 换 or Not To 换?</div><div class='change btn_box'>换换更健康</div><div class='not_change btn_box'>换你妹夫啊</div></div><br/>");
-
-			$("#game").append($tt_div);
 
 			//$("#game").append("<div style='clear:both;' id='s" + game_num + "'><div class='text_box'>请选择：To 换 or Not To 换?</div><div class='change btn_box'>换换更健康</div><div class='not_change btn_box'>换你妹夫啊</div></div><br/>");
 
