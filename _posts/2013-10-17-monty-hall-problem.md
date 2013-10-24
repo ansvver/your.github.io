@@ -20,8 +20,17 @@ tags: [Math, Fun]
 
 ![MHprob](/assets/images/2013/10/MHprob.png "MHprob")
 
+<br/>
+
+<a name="top" id="top"></a>
+
 其实这是一个概率问题，想先试验一下同学可点击<a href="#bottom">“开始游戏”</a>体验一下。
+
+
+
 
 <a name="bottom" id="bottom"></a>
 
 {% include custom/games/monty-hall-problem.html %}
+
+<a href="#bottom">点击返回文章</a>
