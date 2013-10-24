@@ -112,6 +112,7 @@
 			if( $(this).hasClass("prise") ) {
 				help_id = game_num + "" + ((parseInt( index ) + re) % 3);
 				change_id = game_num + "" + ((parseInt( index ) + (re % 2 ) + 1 ) % 3);
+				$("#" + change_id).removeClass("open_box");
 			} else {
 				next_id = game_num + "" + ((parseInt( index ) + 1) % 3);
 				if( $("#" + next_id).hasClass("prise") ) {
