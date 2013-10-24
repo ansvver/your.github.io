@@ -62,6 +62,7 @@
         border: 1px solid green;  
         padding:0;     
         border-collapse: collapse;  
+        margin:0px auto; 
     }  
       
     td th {  
@@ -191,7 +192,7 @@
 						alert("nclost_num=" + nclost_num);
 						alert("game_num=" + game_num);
 
-						$("#game").append("<table width='453' height='118' border='1'><tr><th></th><th>中奖啦！</th><th>艹木有！</th></tr><tr><td>换</td><td>" + cwin_num + "(" + (cwin_num/cgame_num).toPrecision(4)*100 + "%)</td><td>"+ clost_num + "(" +(clost_num/cgame_num).toPrecision(4)*100 +"%)</td></tr><tr><td>不换</td><td>"+ncwin_num+"("+ (ncwin_num/ncgame_num).toPrecision(4)*100 +"%)</td><td>"+nclost_num+"("+(nclost_num/ncgame_num).toPrecision(4)*100+"%)</td></tr></table>");
+						$("#game").append("<br/><br/><table width='300' height='118' border='1'><tr><th></th><th>中奖！</th><th>次奥！</th></tr><tr><td>换</td><td>" + cwin_num + "(" + (cwin_num/cgame_num).toPrecision(4)*100 + "%)</td><td>"+ clost_num + "(" +(clost_num/cgame_num).toPrecision(4)*100 +"%)</td></tr><tr><td>不换</td><td>"+ncwin_num+"("+ (ncwin_num/ncgame_num).toPrecision(4)*100 +"%)</td><td>"+nclost_num+"("+(nclost_num/ncgame_num).toPrecision(4)*100+"%)</td></tr></table>");
 					}
 				});	
 
