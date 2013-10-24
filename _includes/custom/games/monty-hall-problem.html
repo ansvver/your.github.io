@@ -57,6 +57,21 @@
 		PADDING-TOP: 2px; 
 		BORDER-BOTTOM: #7b9ebd 1px solid 
 	} 
+
+    table {  
+        border: 1px solid #B1CDE3;  
+        padding:0;   
+        margin:0 auto;  
+        border-collapse: collapse;  
+    }  
+      
+    td th {  
+        border: 1px solid #B1CDE3;  
+        background: #fff;  
+        font-size:12px;  
+        padding: 3px 3px 3px 8px;  
+        color: #4f6b72;  
+    }  
 </style>
 
 <script type="text/javascript">
@@ -172,6 +187,8 @@
 						alert("ncwin_num=" + ncwin_num);
 						alert("nclost_num=" + nclost_num);
 						alert("game_num=" + game_num);
+
+						$("#game").append("<div style='clear:both;'><table><tr><th></th><th>中奖啦！</th><th>艹木有！</th></tr><tr><td>换</td><td>" + cwin_num + "(" + (cwin_num/game_num).toPrecision(4)*100 + "%)</td><td>"+ clost_num + "(" +(clost_num/game_num).toPrecision(4)*100 +"%)</td></tr><tr><td>不换</td><td>"+ncwin_num+"("+ (ncwin_num/game_num).toPrecision(4)*100 +"%)</td><td>"+nclost_num+"("+(nclost_num/game_num).toPrecision(4)*100+"%)</td></tr></table></div>");
 					}
 				});	
 
