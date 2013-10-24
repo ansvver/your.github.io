@@ -163,7 +163,6 @@
 				$("#game").append("<div style='clear:both;' id='g" + game_num + "'></div><div class='again btn_box'>再拉一菊</div><div class='end btn_box'>查看酱果</div></div>");
 
 				$(".btn_box").click(function(){
-					$("#g" + game_num).remove();
 					$(".btn_box").remove();
 					if($(this).hasClass("again")) {
 						newGame();
