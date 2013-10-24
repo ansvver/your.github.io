@@ -148,16 +148,20 @@
 						nclost_num++;
 						$("#s" + game_num).append("<div class='text_box'>LOST !!!</div>");
 					}
-				}				
+				}	
+
+				$("#game").append("<div style='clear:both;' id='g" + game_num + "'></div><div class='again btn_box'>再拉一菊</div><div class='end btn_box'>查看酱果</div></div><br/>");
+
+				$(".btn_box").click(function(){
+					if($(this).hasClass("again")) {
+						newGame();
+					}
+				});	
+
+
 			});
 
-			$("#game").append("<div style='clear:both;' id='g" + game_num + "'></div><div class='again btn_box'>再拉一菊</div><div class='end btn_box'>查看酱果</div></div><br/>");
 
-			$(".btn_box").click(function(){
-				if($(this).hasClass("again")) {
-					newGame();
-				}
-			});
 
 		});
 		
