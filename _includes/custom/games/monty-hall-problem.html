@@ -93,7 +93,7 @@
 
 			$("#game").append($tt_div);	
 
-					
+
 			//产生一个随机数1或2
 			var re = parseInt(Math.random() * 2) + 1;
 			var help_id;
@@ -126,7 +126,7 @@
 			//$("#game").append("<div style='clear:both;' id='s" + game_num + "'><div class='text_box'>请选择：To 换 or Not To 换?</div><div class='change btn_box'>换换更健康</div><div class='not_change btn_box'>换你妹夫啊</div></div><br/>");
 
 			$(".btn_box").click(function(){
-				$(".btn_box").hide();
+				$(".btn_box").remove();
 				$("#s" + game_num).append("<div class='text_box'>" + $(this).html() + "</div>");
 
 				if( $(this).hasClass("change") ) {
