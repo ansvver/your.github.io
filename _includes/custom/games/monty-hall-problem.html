@@ -40,7 +40,7 @@
 		border-color: red;
 		border-style: solid;
 	}
-	.help_box {
+	.open_box {
 		background-color: green;
 		color: white;
 	}
@@ -110,7 +110,7 @@
 					change_id = game_num + "" + ((parseInt( index ) + 2) % 3);	
 				}
 			}
-			$("#" + help_id).addClass("help_box").html("木有");		
+			$("#" + help_id).addClass("open_box").html("木有");		
 			$("#" + change_id).html("???");	
 			//$("#" + help_id).animate({outlineWidth:"10px"}, "slow").animate({outlineWidth:"0px"}, "slow");
 
@@ -120,9 +120,28 @@
 
 			$(".change_box").click(function(){
 				$(".change_box").hide();
+				$("#s" + game_num).append("<div class='text_box'>" + $(this).html() + "</div>");
+
 				if( $(this).hasClass("change") ) {
-					$("#s" + game_num).append("<div class='text_box'>" + $(this).html() + "</div>");
-				}
+					$("#" + this_id).removeClass("select_box").html("???");
+					$("#" + change_id).addClass("open_box").addClass("select_box");
+					if( $("#" + change_id).hasClass("prise") ){
+						$("#" + change_id).html("中奖啦！");
+						$("#s" + game_num).append("<div class='text_box'>WIN !!!</div>");
+					} else {
+						$("#" + change_id).html("木有");
+						$("#s" + game_num).append("<div class='text_box'>LOST !!!</div>");
+					}
+				} else {
+					$("#" + this_id).addClass("open_box");
+					if($("#")+this_id).hasClass("prise") {
+						$("#" + this_id).html("中奖啦！");
+						$("#s" + game_num).append("<div class='text_box'>WIN !!!</div>");
+					} else {
+						$("#" + this_id).html("木有");
+						$("#s" + game_num).append("<div class='text_box'>LOST !!!</div>");
+					}
+				}				
 			});
 
 		});
