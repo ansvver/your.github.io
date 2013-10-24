@@ -11,7 +11,7 @@
 		line-height: 60px;
 		font-size: xx-small;
 	}
-	.change_box {
+	.btn_box {
 		width: 70px; 
 		height: 30px; 
 		margin: 10px; 
@@ -116,11 +116,11 @@
 
 			$(".a").removeClass("a");
 
-			$("#game").append("<div style='clear:both;' id='s" + game_num + "'><div class='text_box'>请选择：To 换 or Not To 换?</div><div class='change change_box'>换换更健康</div><div class='not_change change_box'>换你妹夫啊</div></div><br/>");
+			$("#game").append("<div style='clear:both;' id='s" + game_num + "'><div class='text_box'>请选择：To 换 or Not To 换?</div><div class='change btn_box'>换换更健康</div><div class='not_change btn_box'>换你妹夫啊</div></div><br/>");
 
 
-			$(".change_box").click(function(){
-				$(".change_box").hide();
+			$(".btn_box").click(function(){
+				$(".btn_box").hide();
 				$("#s" + game_num).append("<div class='text_box'>" + $(this).html() + "</div>");
 
 				if( $(this).hasClass("change") ) {
@@ -144,6 +144,8 @@
 					}
 				}				
 			});
+
+			//$("#game").append("<div style='clear:both;' id='g" + game_num + "'><div class='text_box'>请选择：To 换 or Not To 换?</div><div class='change change_box'>换换更健康</div><div class='not_change change_box'>换你妹夫啊</div></div><br/>");
 
 		});
 		
