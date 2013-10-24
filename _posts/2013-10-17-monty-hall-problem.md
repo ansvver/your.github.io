@@ -12,8 +12,8 @@ tags: [Math, Fun]
 
 你是否在娱乐节目上见过这么一幕？嘉宾有一个抽奖环节，抽奖规则是从眼前的三个盒子中选取一个，当嘉宾选了其中一个以后，主持人会打开嘉宾未选取的两个盒子中的一个，并让展示给嘉宾看，打开的这个盒子没有奖，这时，主持人便会古惑地问嘉宾，“嘿嘿，嘿嘿，你还坚持你的选择吗？现在给你一次机会，你换还是不换？嘿嘿~”。这时如果你是那个纠结的嘉宾，你会选择换还是不换呢？
 
-![MHprob](/assets/images/2013/10/MHprob.png "MHprob")
-
 <!-- more -->
+
+![MHprob](/assets/images/2013/10/MHprob.png "MHprob")
 
 {% include custom/games/monty-hall-problem.html %}
