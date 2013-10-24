@@ -118,6 +118,7 @@
 
 			$("#game").append("<div style='clear:both;' id='s" + game_num + "'><div class='text_box'>请选择：To 换 or Not To 换?</div><div class='change change_box'>换换更健康</div><div class='not_change change_box'>换你妹夫啊</div></div><br/>");
 
+
 			$(".change_box").click(function(){
 				$(".change_box").hide();
 				$("#s" + game_num).append("<div class='text_box'>" + $(this).html() + "</div>");
@@ -129,16 +130,16 @@
 						$("#" + change_id).html("中奖啦！");
 						$("#s" + game_num).append("<div class='text_box'>WIN !!!</div>");
 					} else {
-						$("#" + change_id).html("木有");
+						$("#" + change_id).html("艹木有!");
 						$("#s" + game_num).append("<div class='text_box'>LOST !!!</div>");
 					}
 				} else {
 					$("#" + this_id).addClass("open_box");
-					if($("#")+this_id).hasClass("prise") {
+					if($("#" + this_id).hasClass("prise"){
 						$("#" + this_id).html("中奖啦！");
 						$("#s" + game_num).append("<div class='text_box'>WIN !!!</div>");
 					} else {
-						$("#" + this_id).html("木有");
+						$("#" + this_id).html("艹木有！");
 						$("#s" + game_num).append("<div class='text_box'>LOST !!!</div>");
 					}
 				}				
