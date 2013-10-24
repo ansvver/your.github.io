@@ -91,7 +91,7 @@
 			
 			var $tt_div = $("<div style='clear:both;' id='s" + game_num + "'><div class='text_box'>请选择：To 换 or Not To 换?</div><div class='change btn_box'>换换更健康</div><div class='not_change btn_box'>换你妹夫啊</div></div><br/>");
 
-			if( $("#game").append($tt_div) );	
+			if( $("#game").append($tt_div) && $("#s" + game_num).remove() );	
 
 
 			//产生一个随机数1或2
