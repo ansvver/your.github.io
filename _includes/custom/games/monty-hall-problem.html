@@ -70,7 +70,8 @@
         background: #fff;  
         font-size:12px;  
         padding: 3px 3px 3px 8px;  
-        color: #green;  
+        color: #green; 
+        text-align:center; 
     }  
 </style>
 
@@ -186,11 +187,6 @@
 					if($(this).hasClass("again")) {
 						newGame();
 					} else {
-						alert("cwin_num=" + cwin_num);
-						alert("clost_num=" + clost_num);
-						alert("ncwin_num=" + ncwin_num);
-						alert("nclost_num=" + nclost_num);
-						alert("game_num=" + game_num);
 
 						$("#game").append("<br/><br/><table width='300' height='118' border='1'><tr><th></th><th>中奖！</th><th>次奥！</th></tr><tr><td>换</td><td>" + cwin_num + "(" + (cwin_num/cgame_num).toPrecision(4)*100 + "%)</td><td>"+ clost_num + "(" +(clost_num/cgame_num).toPrecision(4)*100 +"%)</td></tr><tr><td>不换</td><td>"+ncwin_num+"("+ (ncwin_num/ncgame_num).toPrecision(4)*100 +"%)</td><td>"+nclost_num+"("+(nclost_num/ncgame_num).toPrecision(4)*100+"%)</td></tr></table>");
 					}
