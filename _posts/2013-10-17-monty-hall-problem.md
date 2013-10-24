@@ -39,6 +39,8 @@ tags: [Math, Fun]
 
 ![MontyCars](/assets/images/2013/10/Monty_Cars.png "Monty_Cars")
 
+<br/>
+
 如上图所示，不失一般性地我们假设车子（奖品）放在第一个门后，那么参赛者是主持人挑出一只羊后转换失败的情况只有三种情况中的一种，即参赛者若第一次选择的是第一道门，其余两种情况（参赛者第一次选择第二道或第三道门）在转换后都将获胜。即如果参赛者在主持人挑出羊后选择转换获胜的概率为$$\frac{2}{3}$$。
 
 当然，我们也可以用[Bayes定理](http://en.wikipedia.org/wiki/Bayes'_theorem)来进行计算。
