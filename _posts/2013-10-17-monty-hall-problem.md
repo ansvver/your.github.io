@@ -35,4 +35,4 @@ tags: [Math, Fun]
 
 {% include custom/games/monty-hall-problem.html %}
 
-<a href="#top">点击返回文章</a>
+<a href="#top" id="top">点击返回文章</a>
