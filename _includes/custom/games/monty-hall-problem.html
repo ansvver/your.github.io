@@ -68,6 +68,10 @@
 
 	var $newbox = $( "<div class='a'/>" ).html("点击选择").addClass("init_box");
 
+	function tt(aa, bb) {
+		if(aa!=bb) {$("#s" + bb).remove()}
+	}
+
 	function newGame(){
 		game_num++;
 		var i;
@@ -92,7 +96,7 @@
 			
 			var $tt_div = $("<div style='clear:both;' id='s" + game_num + "'><div class='text_box'>请选择：To 换 or Not To 换?</div><div class='change btn_box'>换换更健康</div><div class='not_change btn_box'>换你妹夫啊</div></div><br/>");
 
-			if( $("#game").append($tt_div) &&  (tt += 1) && if(tt!=game_num) {$("#s" + game_num).remove()});	
+			if( $("#game").append($tt_div) &&  (tt += 1) && tt(tt, game_num));	
 
 
 			//产生一个随机数1或2
