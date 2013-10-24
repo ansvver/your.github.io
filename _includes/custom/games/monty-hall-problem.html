@@ -91,7 +91,7 @@
 			
 			var $tt_div = $("<div style='clear:both;' id='s" + game_num + "'><div class='text_box'>请选择：To 换 or Not To 换?</div><div class='change btn_box'>换换更健康</div><div class='not_change btn_box'>换你妹夫啊</div></div><br/>");
 
-			$("#game").append($tt_div);	
+			if( $("#game").append($tt_div) );	
 
 
 			//产生一个随机数1或2
@@ -157,6 +157,7 @@
 				$("#game").append("<div style='clear:both;' id='g" + game_num + "'></div><div class='again btn_box'>再拉一菊</div><div class='end btn_box'>查看酱果</div></div><br/><div style='clear:both;'></div>");
 
 				$(".btn_box").click(function(){
+					$(".btn_box").remove();
 					if($(this).hasClass("again")) {
 						newGame();
 					}
