@@ -60,8 +60,10 @@
 </style>
 
 <script type="text/javascript">
-	var win_num = 0;
-	var lost_num = 0;
+	var cwin_num = 0;
+	var clost_num = 0;
+	var ncwin_num = 0;
+	var nclost_num = 0;
 	var game_num = 0;
 
 	var $newbox = $( "<div class='a'/>" ).html("点击选择").addClass("init_box");
@@ -128,24 +130,34 @@
 					$("#" + change_id).addClass("open_box").addClass("select_box");
 					if( $("#" + change_id).hasClass("prise") ){
 						$("#" + change_id).html("中奖啦！");
+						cwin_num++;
 						$("#s" + game_num).append("<div class='text_box'>WIN !!!</div>");
 					} else {
 						$("#" + change_id).html("艹木有!");
+						clost_num++;
 						$("#s" + game_num).append("<div class='text_box'>LOST !!!</div>");
 					}
 				} else {
 					$("#" + this_id).addClass("open_box");
 					if($("#" + this_id).hasClass("prise")){
 						$("#" + this_id).html("中奖啦！");
+						ncwin_num++;
 						$("#s" + game_num).append("<div class='text_box'>WIN !!!</div>");
 					} else {
 						$("#" + this_id).html("艹木有！");
+						nclost_num++;
 						$("#s" + game_num).append("<div class='text_box'>LOST !!!</div>");
 					}
 				}				
 			});
 
-			//$("#game").append("<div style='clear:both;' id='g" + game_num + "'><div class='text_box'>请选择：To 换 or Not To 换?</div><div class='change change_box'>换换更健康</div><div class='not_change change_box'>换你妹夫啊</div></div><br/>");
+			$("#game").append("<div style='clear:both;' id='g" + game_num + "'></div><div class='again btn_box'>再拉一菊</div><div class='end btn_box'>查看酱果</div></div><br/>");
+
+			$(".btn_box").click(function(){
+				if($(this).hasClass("again")) {
+					newGame();
+				}
+			});
 
 		});
 		
