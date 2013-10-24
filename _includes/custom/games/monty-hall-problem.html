@@ -164,6 +164,7 @@
 
 				$(".btn_box").click(function(){
 					$("#g" + game_num).remove();
+					$(".btn_box").remove();
 					if($(this).hasClass("again")) {
 						newGame();
 					}
