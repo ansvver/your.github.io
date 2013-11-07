@@ -2,9 +2,9 @@
 layout: post
 title: "由“三堆游戏”说起"
 description: "Nim游戏是博弈论中最经典的模型，它又有着十分简单的规则和无比优美的结论."
-keywords: "algorithm, funny, game"
-category: 算法之道
-tags: [Algorithm, Fun, Game]
+keywords: "math, algorithm, funny, game"
+category: 数学奥义
+tags: [Math, Algorithm, Fun, Game]
 ---
 {% include JB/setup %}
 
@@ -51,29 +51,19 @@ tags: [Algorithm, Fun, Game]
 
 ###附录
 
-下面以每堆数目10为上限，给出P状态，只要记住这些P状态，再根据取胜策略（尽量使对手在P状态下取子，也尽量避免自己“陷入”P状态），那就能无往不利了！
+下面以每堆数目10为上限，给出P状态，只要记住这些P状态，再根据取胜策略（尽量使对手在P状态下取子，也尽量避免自己“陷入”P状态），那就能无往不利了！(下面只给出`a!=b!=c`的状态，对于一堆为空或两堆为空的状态比较简单，这里就不给出了。)
 
 {% highlight c %}
-(0, 1, 1)
-(0, 2, 2)
 (1, 2, 3)
-(0, 3, 3)
-(0, 4, 4)
 (1, 4, 5)
-(0, 5, 5)
 (2, 4, 6)
 (3, 5, 6)
-(0, 6, 6)
 (3, 4, 7)
 (2, 5, 7)
 (1, 6, 7)
-(0, 7, 7)
-(0, 8, 8)
 (1, 8, 9)
-(0, 9, 9)
 (2, 8, 10)
 (3, 9, 10)
-(0, 10, 10)
 {% endhighlight %}
 
 下面是C的简单源码：
