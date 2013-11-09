@@ -16,11 +16,11 @@ tags: [Math, Fun, Game]
 
 大家不妨思考一下，说不定什么时候你就成为了那个“纠结的嘉宾”。
 
-<!-- more -->
-
 <br/>
 
 ![MHprob](/assets/images/2013/10/MHprob.png "MHprob")
+
+<!-- more -->
 
 <br/>
 
