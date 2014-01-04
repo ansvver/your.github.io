@@ -41,3 +41,11 @@ $$(A\cup B)^{c} = A^{c} \cap  B^{c}$$
 - 公理1：对任何事件A而言，$$P(A)\geqslant 0$$.
 - 公理2：$$P(S)=1$$.
 - 公理3：$$事件A_{1},A_{2},...,A_{n}互斥\Rightarrow P(A_{1}\cup A_{2}\cup ...\cup A_{n}) = P(A_{1}) + P(A_{2}) + ... + P(A_{n})$$
+
+###Bayes' Rule
+
+若$$C_{1},C_{2},...,C_{n}$$互斥且$$C_{1}\cup C_{2}\cup ...\cup C_{n}=S$$，则对任意事件A，我们有：
+$$P(C_{j}|A)=\frac{P(A|C_{j})P(C_{j})}{P(A|C_{1})P(C_{1})+P(A|C_{2})P(C_{2})+...+P(A|C_{n})P(C_{n})}$$
+$$\Leftrightarrow$$
+$$\frac{P(C_{j}\cap A)}{P(A)}=\frac{P(A|C_{j})P(C_{j})}{\sum_{i=1}^{n}P(A|C_{i})P(C_{i})}$$
+
