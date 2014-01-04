@@ -19,7 +19,7 @@ tags: [Math, Probability]
 
 ###De Morgan's Law
 
-$$(A\cup B)^{c} = A^{c} \cap  B^{c}$$
+- $$(A\cup B)^{c} = A^{c} \cap  B^{c}$$
 
 <!-- more -->
 
@@ -34,7 +34,7 @@ $$(A\cup B)^{c} = A^{c} \cap  B^{c}$$
 
 ###公理
 
-近代数学常以数条公理作为整套理论的基石。好处是，“头过身就过”。公理常是不能被证明的基本性质，也是非常基本的性质。
+- 近代数学常以数条公理作为整套理论的基石。好处是，“头过身就过”。公理常是不能被证明的基本性质，也是非常基本的性质。
 
 ###机率三公理
 
@@ -44,27 +44,25 @@ $$(A\cup B)^{c} = A^{c} \cap  B^{c}$$
 
 ###Bayes' Rule
 
-若$$C_{1},C_{2},...,C_{n}$$互斥且$$C_{1}\cup C_{2}\cup ...\cup C_{n}=S$$，则对任意事件A，我们有：
+- 若$$C_{1},C_{2},...,C_{n}$$互斥且$$C_{1}\cup C_{2}\cup ...\cup C_{n}=S$$，则对任意事件A，我们有：
 
 $$P(C_{j}|A)=\frac{P(A|C_{j})P(C_{j})}{P(A|C_{1})P(C_{1})+P(A|C_{2})P(C_{2})+...+P(A|C_{n})P(C_{n})}$$
 $$\Leftrightarrow$$
 $$\frac{P(C_{j}\cap A)}{P(A)}=\frac{P(A|C_{j})P(C_{j})}{\sum_{i=1}^{n}P(A|C_{i})P(C_{i})}$$
 
-这里有一个好玩的问题，有兴趣可参见我之前的一篇文章[Monty Hall problem](http://yabuhoo.com/%E6%95%B0%E5%AD%A6%E5%A5%A5%E4%B9%89/2013-10/monty-hall-problem.html "Monty Hall problem")。
+- 这里有一个好玩的问题，有兴趣可参见我之前的一篇文章[Monty Hall problem](http://yabuhoo.com/%E6%95%B0%E5%AD%A6%E5%A5%A5%E4%B9%89/2013-10/monty-hall-problem.html "Monty Hall problem")。
 
 ###概率的独立性
 
-$$P(A\cap B)=P(A)P(B)\Leftrightarrow \frac{P(A\cap B)}{P(B)}=P(A)\Leftrightarrow P(A|B)=P(A)$$
+- $$P(A\cap B)=P(A)P(B)\Leftrightarrow \frac{P(A\cap B)}{P(B)}=P(A)\Leftrightarrow P(A|B)=P(A)$$
 
 ###二项式定理
 
-$$(x+y)^{n}=\sum_{k=0}^{n}\binom{n}{k}x^{k}y^{n-k}$$
+- $$(x+y)^{n}=\sum_{k=0}^{n}\binom{n}{k}x^{k}y^{n-k}$$
 
 ###数数算概率
 
-如实验结果由事件A，B，C，D组成，且这4个事件相互独立，发生的概率分别为P(A)，P(B)，P(C），P(D)，问，如做10次实验，求出现2次A，4次B，3次C，1次D的概率。
-
-设所求事件为Z，则
+- 如实验结果由事件A，B，C，D组成，且这4个事件相互独立，发生的概率分别为P(A)，P(B)，P(C），P(D)，问，如做10次实验，求出现2次A，4次B，3次C，1次D的概率。设所求事件为Z，则
 
 $$P(Z)=\frac{10!}{2!4!3!1!}(P(A))^{2}(P(B))^{4}(P(C))^{3}P(D)$$
 
