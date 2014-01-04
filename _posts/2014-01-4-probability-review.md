@@ -193,9 +193,21 @@ f_X(x)=\begin{cases}
 \end{cases}
 $$
 
+![Uniform](/assets/images/2014/01/uniform0201.png "Uniform")
 
+- CDF:
 
+$$
+F_X(x)=\int_{-\infty }^x f_X(u)du = \begin{cases}
+0, x\leqslant a, \\ 
+\frac{x-a}{x-b},a< x\leqslant b \\ 
+1, x>b 
+\end{cases}
+$$
 
+![Uniform](/assets/images/2014/01/uniform0202.png "Uniform")
+
+###连续概率分布のExponential Distribution
 
 
 
