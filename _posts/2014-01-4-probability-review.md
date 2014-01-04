@@ -182,6 +182,18 @@ $$f_X(x)\geqslant 0$$
 
 - Poisson可以用极限的思想看做Binomial分布，这也是它的推导由来。
 
+###连续概率分布のUniform Distribution
+
+- PDF：
+
+$$
+f_X(x)=\begin{cases}
+\frac{1}{b-a}, a\leqslant x\leqslant b \\ 
+0, otherwise
+\end{cases}
+$$
+
+
 
 
 
