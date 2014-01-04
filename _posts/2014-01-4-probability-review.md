@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Probability Review"
+title: "迷のProbability Review"
 description: "Review the Probability class."
 keywords: "math, probability"
 category: 数学奥义
@@ -91,4 +91,44 @@ $$P(Z)=\frac{10!}{2!4!3!1!}(P(A))^{2}(P(B))^{4}(P(C))^{3}P(D)$$
 - 对于任一个随机变量X，定义其CDF为函数：
 
 $$F_X(x)\overset{\underset{\mathrm{def}}{}}{=}P(X\leqslant x)$$
+
+- 最有用的用途：计算X落在某范围内的概率
+
+$$P(a<X\leqslant b)=F_X(b)-F_X(a)$$
+
+- CDF的分布呈梯形状，则它是一个离散随机变量
+
+###概率质量函数PMF(Probability Mass Function)
+
+- 对任一个整数值的**离散随机变量**X，定义其PMF为函数：
+
+$$p_X(x)\overset{\underset{\mathrm{def}}{}}{=}P(X=x)$$
+
+- 与CDF的关系是，对任何x：
+
+$$F_X(x)=\sum_{n=-\infty }^{\left \lfloor x \right \rfloor}P_X(n)$$
+
+###离散概率分布のBernoulli Distribution
+
+- 1次实验，2种结果。在意某结果发生与否。记作$$X\sim Bernoulli(p)$$
+
+![Bernoulli](/assets/images/2014/01/bernoulli.png "Bernoulli")
+
+###离散概率分布のBinomial Distribution
+
+- n次实验，1个概率。在意n次实验出现某结果k次的概率。记作$$X\sim BIN(n,p)$$
+
+![BIN](/assets/images/2014/01/bin.png "BIN")
+
+###离散概率分布のUniform Distribution
+
+- 1次实验，n种结果，各结果出现概率均等。在意某种结果发生与否。
+
+![Uniform](/assets/images/2014/01/uniform.png "Uniform")
+
+
+
+
+
+
 
