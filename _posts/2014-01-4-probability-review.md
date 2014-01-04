@@ -54,7 +54,7 @@ $$\frac{P(C_{j}\cap A)}{P(A)}=\frac{P(A|C_{j})P(C_{j})}{\sum_{i=1}^{n}P(A|C_{i})
 
 ###概率的独立性
 
-$$P(A\cap B) = P(A)P(B)\Leftrightarrow \frac{P(A\cap B)}{P(B)}=P(A)\Leftrightarrow P(A|B)=P(A)$$
+$$P(A\cap B)=P(A)P(B)\Leftrightarrow \frac{P(A\cap B)}{P(B)}=P(A)\Leftrightarrow P(A|B)=P(A)$$
 
 ###二项式定理
 
