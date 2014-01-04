@@ -36,7 +36,7 @@ $$(A\cup B)^{c} = A^{c} \cap  B^{c}$$
 
 - 近代数学常以数条公理作为整套理论的基石。好处是，“头过身就过”。公理常是不能被证明的基本性质，也是非常基本的性质。
 
-###机率三公理
+###概率三公理
 
 - 公理1：对任何事件A而言，$$P(A)\geqslant 0$$.
 - 公理2：$$P(S)=1$$.
@@ -54,11 +54,7 @@ $$\frac{P(C_{j}\cap A)}{P(A)}=\frac{P(A|C_{j})P(C_{j})}{\sum_{i=1}^{n}P(A|C_{i})
 
 ###概率的独立性
 
-$$P(A\cap B)=P(A)P(B)$$
-
-$$\frac{P(A\cap B)}{P(B)}=P(A)$$
-
-$$P(A|B)=P(A)$$
+$$P(A\cap B) = P(A)P(B)\Leftrightarrow \frac{P(A\cap B)}{P(B)}=P(A)\Leftrightarrow P(A\\|B)=P(A)$$
 
 ###二项式定理
 
