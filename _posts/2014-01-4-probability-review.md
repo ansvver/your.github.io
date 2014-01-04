@@ -108,6 +108,28 @@ $$p_X(x)\overset{\underset{\mathrm{def}}{}}{=}P(X=x)$$
 
 $$F_X(x)=\sum_{n=-\infty }^{\left \lfloor x \right \rfloor}P_X(n)$$
 
+###概率密度函数PDF(Probability Density Function)
+
+- 连续随机变量每点发生的概率均是0.因此不能用PMF来计算。
+- 如果我们想知道连续随机变数在各个点上的概率分布，可以用密度的方式来表示。
+- 对随机变量X而言，其概率密度：
+
+![PDF](/assets/images/2014/01/pdf.png "PDF")
+
+![PDF](/assets/images/2014/01/pdf2.png "PDF")
+
+- PDF有如下性质
+
+$$f_X(x)=F'_X(x)$$
+
+$$F_X(x)=\int_{-\infty }^{x}f_X(u)du$$
+
+$$P(a\leqslant X\leqslant b)=\int_a^bf_X(x)dx$$
+
+$$\int_{-\infty }^{\infty}f_X(x)dx=1$$
+
+$$f_X(x)\geqslant 0$$
+
 ###离散概率分布のBernoulli Distribution
 
 - 1次实验，2种结果。在意某结果发生与否。记作$$X\sim Bernoulli(p)$$
@@ -122,10 +144,43 @@ $$F_X(x)=\sum_{n=-\infty }^{\left \lfloor x \right \rfloor}P_X(n)$$
 
 ###离散概率分布のUniform Distribution
 
-- 1次实验，n种结果，各结果出现概率均等。在意某种结果发生与否。
+- 1次实验，n种结果，各结果出现概率均等。在意某种结果发生与否。记作$$X\sim UNIF(a,b)$$
 
 ![Uniform](/assets/images/2014/01/uniform.png "Uniform")
 
+###离散概率分布のGeometric Distribution
+
+- 实验中出现某种结果概率已知，重复操作实验至该结果出现为止。在意某结果是在第几次实验才首次出现。记作$$X\sim Geometric(p)$$
+
+![Geometric](/assets/images/2014/01/geometric1.png "Geometric")
+
+![Geometric](/assets/images/2014/01/geometric2.png "Geometric")
+
+- Geometric Distribution有失忆性！失忆性是什么？我忘了=。=
+
+- 段誉的六脉の神剑可以用几何分布来算他成功打出的概率T_T
+
+###离散概率分布のPascal Distribution
+
+- 实验中出现某种结果机率已知，重复操作实验至该结果出现第k次为止。在意到底在第几次实验才结束。记作$$X\sim Pascal(k,p)$$
+
+![Pascal](/assets/images/2014/01/pascal.png "Pascal")
+
+###离散概率分布のPoisson Distribution
+
+- 某结果出现之平均速率(rate:λ次数/时间)已知。问持续观察某时间长度T后，看到该结果出现k次的概率。记作$$X\sim POI(\lambda T)$$
+
+- PMF:已知某事发生速率为每单位时间λ次，观察时间为T时间单位。X为该观察时间内发生该事件的总次数。则有：
+
+![Poisson](/assets/images/2014/01/poisson1.png "Poisson")
+
+- CDF:
+
+![Poisson](/assets/images/2014/01/poisson.png "Poisson")
+
+- **Poisson**别读成poison了（读：婆桑），其实就是法国佬泊松。
+
+- Poisson可以用极限的思想看做Binomial分布，这也是它的推导由来。
 
 
 
