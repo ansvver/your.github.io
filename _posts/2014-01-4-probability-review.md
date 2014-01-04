@@ -19,7 +19,7 @@ tags: [Math, Probability]
 
 ###De Morgan's Law
 
-- $$(A\cup B)^{c} = A^{c} \cap  B^{c}$$
+$$(A\cup B)^{c} = A^{c} \cap  B^{c}$$
 
 <!-- more -->
 
@@ -54,11 +54,11 @@ $$\frac{P(C_{j}\cap A)}{P(A)}=\frac{P(A|C_{j})P(C_{j})}{\sum_{i=1}^{n}P(A|C_{i})
 
 ###概率的独立性
 
-- $$P(A\cap B)=P(A)P(B)\Leftrightarrow \frac{P(A\cap B)}{P(B)}=P(A)\Leftrightarrow P(A|B)=P(A)$$
+$$P(A\cap B) = P(A)P(B)\Leftrightarrow \frac{P(A\cap B)}{P(B)}=P(A)\Leftrightarrow P(A|B)=P(A)$$
 
 ###二项式定理
 
-- $$(x+y)^{n}=\sum_{k=0}^{n}\binom{n}{k}x^{k}y^{n-k}$$
+$$(x+y)^{n}=\sum_{k=0}^{n}\binom{n}{k}x^{k}y^{n-k}$$
 
 ###数数算概率
 
