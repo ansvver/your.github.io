@@ -16,22 +16,22 @@ tags: [Feelings]
 
 <!-- more -->
 
-[アヤノの幸福理论  
-文乃的幸福理论](http://www.bilibili.tv/video/av552064/)  
+<center>[アヤノの幸福理论  
+文乃的幸福理论](http://www.bilibili.tv/video/av552064/)  </center>
 
-<center>回忆起来的，依旧是家人的事情
+<center>回忆起来的，依旧是家人的事情</center>
 
-“AYANO是姐姐，所以，要好好照顾大家哦”
+<center>“AYANO是姐姐，所以，要好好照顾大家哦”</center>
 
-红砖墙，小小的房子里
+<center>红砖墙，小小的房子里</center>
 
-窃窃私语，像是秘密作战一样
+<center>窃窃私语，像是秘密作战一样</center>
 
-被带来的，三人鲜红的眼中
+<center>被带来的，三人鲜红的眼中</center>
 
-隐藏着，大人所不知的过去
+<center>隐藏着，大人所不知的过去</center>
 
-带着胆怯的表情说出“我是怪物”
+<center>带着胆怯的表情说出“我是怪物”</center>
 
 我却说，“才不是那样”
 
@@ -137,7 +137,7 @@ tags: [Feelings]
 就连明天，可能够喜欢上呢
 
           “最喜欢大家的啊”
-</center>
+
 
 ![文乃的幸福理论](/assets/images/2014/01/wennai1.jpg)
 
