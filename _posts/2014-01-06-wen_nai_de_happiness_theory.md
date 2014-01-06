@@ -16,6 +16,8 @@ tags: [Feelings]
 
 ![文乃的幸福理论](/assets/images/2014/01/wennai2.jpg)
 
+<!-- more -->
+
 [アヤノの幸福理论  
 文乃的幸福理论](http://www.bilibili.tv/video/av552064/)  
 
