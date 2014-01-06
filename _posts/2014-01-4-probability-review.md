@@ -239,5 +239,29 @@ $$
 	- Ex:小美出门化妆所需的时间
 	- Ex:某宅打LOL所花的时间
 
- 
+###连续概率分布のErlang Distribution
+
+- $$Erlang(n,\lambda )$$常被用来model一件有n个关卡事情的总时间，而每个关卡所需时间都是关于$$\lambda $$的指数概率分布
+	- Ex:打游戏过三关所需时间：$$Erlang(3,\lambda )$$
+	- Ex:写五科作业所需时间：$$Erlang(5,\lambda )$$
+
+-PDF
+
+$$
+f_X(x)=\begin{cases}
+\frac{1}{(n-1)!}\lambda ^nx^{n-1}e^{-\lambda x},x\geqslant 0; \\ 
+0,otherwise
+\end{cases}
+$$
+
+![Erlang](/assets/images/2014/01/erlang.png)
+
+- CDF
+
+$$
+F_X(x)=\begin{cases}
+1-\sum _{k=0}^{n-1}\frac{(\lambda x)^k}{k!}e^{-\lambda x},&x\geqslant 0;\\ 
+0,&otherwise 
+\end{cases}
+$$
 
