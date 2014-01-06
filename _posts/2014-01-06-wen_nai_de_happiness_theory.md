@@ -12,15 +12,11 @@ tags: [Feelings]
 真想有一个  
 像文乃一样的姐姐  
 
-<center>
-
 ![文乃的幸福理论](/assets/images/2014/01/wennai2.jpg)
 
-</center>
+<!-- more -->
 
 <center>
-
-<!-- more -->
 
 [アヤノの幸福理论  
 文乃的幸福理论](http://www.bilibili.tv/video/av552064/)  
