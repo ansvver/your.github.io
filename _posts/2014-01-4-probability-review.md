@@ -209,5 +209,35 @@ $$
 
 ###连续概率分布のExponential Distribution
 
+- 如果一个随机变量X呈指数分布，则可以记作$$X\sim Exponential(\lambda )$$
 
+- 其中$$\lambda >0$$是一个参数，常被称为率参数(rate parameter)。即每单位时间内发生某事件的次数。
+
+- PDF
+
+$$
+f_X(x)=\begin{cases}
+\lambda e^{\lambda x} x\geqslant 0; \\ 
+0,otherwise
+\end{cases}
+$$
+
+![Exponential](/assets/images/2014/01/exponential.png)
+
+- CDF
+	- If $$x\geqslant 0$$:  
+$$
+F_X(x)=\int_{-\infty }^xf_X(u)du=\int_0^x\lambda e^{-\lambda u}du=-\int_0^xe^{-\lambda u}d(-\lambda u)=-[e^{-\lambda u}]_0^x=1-e^{-\lambda x}
+$$ 
+
+	- If $$x<0$$:  
+$$
+F_X(x)=0
+$$
+
+- Exponential分布有失忆的性质(memoryless)，常被用来model有这种性质的事情
+	- Ex:小美出门化妆所需的时间
+	- Ex:某宅打LOL所花的时间
+
+ 
 
