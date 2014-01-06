@@ -282,8 +282,8 @@ $$
 	- 办法：Gaussiaan ==> Standard Normal Distribution ==> 查表
 
 - 标准正态分布
-	- $$Z\sim N(0,1)$$，
-$$f_Z(z)=\frac{1}{\sqr{2\pi }e^{-\frac{z^2}{2}}$$
+	- $$Z\sim N(0,1)$$，  
+$$f_Z(z)=\frac{1}{\sqr{2\pi }}e^{-\frac{z^2}{2}}$$
 
 ![SND](/assets/images/2014/01/snd.png)
 
