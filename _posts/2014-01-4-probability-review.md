@@ -288,7 +288,7 @@ $$f_Z(z)=\frac{1}{\sqrt{2\pi }}e^{-\frac{z^2}{2}}$$
 
 ![SND](/assets/images/2014/01/snd.png)
 
-\Phi (z)=\int _{-\infty}^Z\frac{1}{\sqrt{2\pi }}e^{-\frac{u^2}{2}}du
+$$\Phi (z)=\int _{-\infty}^Z\frac{1}{\sqrt{2\pi }}e^{-\frac{u^2}{2}}du$$
 
 ![SND](/assets/images/2014/01/snd2.png)
 
@@ -298,7 +298,8 @@ $$f_Z(z)=\frac{1}{\sqrt{2\pi }}e^{-\frac{z^2}{2}}$$
 
 - 对于任何$$X\sim N(\mu ,\sigma ^2)$$而言，$$F_X(x)=\Phi (\frac{x-\mu }{\sigma })$$
 
-- 证明：  
+- 证明：
+
 $$
 \begin{aligned}
 F_X(x)&=P(X\leqslant x) \\
