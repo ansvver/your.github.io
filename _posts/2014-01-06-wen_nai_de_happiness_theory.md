@@ -16,8 +16,6 @@ tags: [Feelings]
 
 <!-- more -->
 
-<center>
-
 [アヤノの幸福理论  
 文乃的幸福理论](http://www.bilibili.tv/video/av552064/)  
 
@@ -140,8 +138,6 @@ tags: [Feelings]
 就连明天，可能够喜欢上呢
 
           “最喜欢大家的啊”
-
-</center>
 
 ![文乃的幸福理论](/assets/images/2014/01/wennai1.jpg)
 
