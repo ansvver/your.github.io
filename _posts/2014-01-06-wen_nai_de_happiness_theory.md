@@ -12,6 +12,10 @@ tags: [Feelings]
 真想 有一个  
 像 文乃一样的 姐姐  
 
+<tr> 
+<td id="postmessage_3345114" class="t_msgfont"><embed height="74" type="application/x-shockwave-flash" width="500" src="http://box.baidu.com/widget/flash/song.swf?name=文乃的幸福理论&autoPlay=true&loop=true
+" wmode="opaque"></td></tr> 
+
 ![文乃的幸福理论](/assets/images/2014/01/wennai2.jpg)
 
 <!-- more -->
