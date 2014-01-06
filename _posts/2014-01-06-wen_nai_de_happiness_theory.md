@@ -19,8 +19,7 @@ tags: [Feelings]
 [アヤノの幸福理论  
 文乃的幸福理论](http://www.bilibili.tv/video/av552064/)  
 
-
-回忆起来的，依旧是家人的事情
+<center>回忆起来的，依旧是家人的事情</center>
 
 “AYANO是姐姐，所以，要好好照顾大家哦”
 
