@@ -283,7 +283,28 @@ $$
 
 - 标准正态分布
 	- $$Z\sim N(0,1)$$，  
+
 $$f_Z(z)=\frac{1}{\sqrt{2\pi }}e^{-\frac{z^2}{2}}$$
 
 ![SND](/assets/images/2014/01/snd.png)
+
+\Phi (z)=\int _{-\infty}^Z\frac{1}{\sqrt{2\pi }}e^{-\frac{u^2}{2}}du
+
+![SND](/assets/images/2014/01/snd2.png)
+
+- $$\Phi (z)$$的性质：$$\Phi (-z)=1-\Phi (z)$$
+
+- 对于任何$$X\sim N(\mu ,\sigma ^2)$$而言，$$\frac{X-\mu }{\sigma }\sim N(0,1)$$
+
+- 对于任何$$X\sim N(\mu ,\sigma ^2)$$而言，$$F_X(x)=\Phi (\frac{x-\mu }{\sigma })$$
+
+- 证明：  
+$$
+\begin{aligned}
+F_X(x)&=P(X\leqslant x) \\
+&=P(X-\mu \leqslant x-\mu ) \\
+&=P(\frac{X-\mu }{\sigma}\leqslant \frac{x-\mu }{\sigma }) \\
+&=\Phi (\frac{x-\mu }{\sigma })
+\end{aligned}
+$$
 
