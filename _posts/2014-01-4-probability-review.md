@@ -188,8 +188,8 @@ $$f_X(x)\geqslant 0$$
 
 $$
 f_X(x)=\begin{cases}
-\frac{1}{b-a}, a\leqslant x\leqslant b \\ 
-0, otherwise
+\frac{1}{b-a}, &a\leqslant x\leqslant b \\ 
+0, &otherwise
 \end{cases}
 $$
 
@@ -199,9 +199,9 @@ $$
 
 $$
 F_X(x)=\int_{-\infty }^x f_X(u)du = \begin{cases}
-0, x\leqslant a, \\ 
-\frac{x-a}{x-b},a< x\leqslant b \\ 
-1, x>b 
+0, &x\leqslant a, \\ 
+\frac{x-a}{x-b},&a< x\leqslant b \\ 
+1, &x>b 
 \end{cases}
 $$
 
@@ -217,8 +217,8 @@ $$
 
 $$
 f_X(x)=\begin{cases}
-\lambda e^{\lambda x} x\geqslant 0; \\ 
-0,otherwise
+\lambda e^{\lambda x},&x\geqslant 0; \\ 
+0,&otherwise
 \end{cases}
 $$
 
@@ -249,8 +249,8 @@ $$
 
 $$
 f_X(x)=\begin{cases}
-\frac{1}{(n-1)!}\lambda ^nx^{n-1}e^{-\lambda x},x\geqslant 0; \\ 
-0,otherwise
+\frac{1}{(n-1)!}\lambda ^nx^{n-1}e^{-\lambda x},&x\geqslant 0; \\ 
+0,&otherwise
 \end{cases}
 $$
 
@@ -264,4 +264,26 @@ F_X(x)=\begin{cases}
 0,&otherwise 
 \end{cases}
 $$
+
+###连续概率分布のNormal Distribution
+
+- 正态分布，亦常被称为高斯(Gaussian)分布。记作$$X\sim Gaussian(\mu ,\sigma )$$，也常有人用$$X\sim N(\mu ,\sigma ^2)$$来表示
+
+- PDF
+
+$$
+f_X(x)=\frac{1}{\sqrt{2\pi }\sigma}e^{-\frac{(x-\mu )^2}{2\sigma ^2}}
+$$
+
+![Gaussian](/assets/images/2014/01/gaussian.png)
+
+- CDF
+	- 很难算，积分根本算不出！
+	- 办法：Gaussiaan ==> Standard Normal Distribution ==> 查表
+
+- 标准正态分布
+	- $$Z\sim N(0,1)$$，
+$$f_Z(z)=\frac{1}{\sqr{2\pi }e^{-\frac{z^2}{2}}$$
+
+![SND](/assets/images/2014/01/snd.png)
 
