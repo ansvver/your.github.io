@@ -8,11 +8,17 @@ tags: [Feelings]
 ---
 {% include JB/setup %}
 
-有时 真想有一个 像文乃一样的姐姐啊
+有时  
+真想有一个  
+像文乃一样的姐姐  
 
-![文乃的幸福理论](/assets/images/2014/01/wennai1.jpg)
+<center>
 
-[文乃的幸福理论](http://www.bilibili.tv/video/av552064/)
+![文乃的幸福理论](/assets/images/2014/01/wennai2.jpg)
+
+[アヤノの幸福理论  
+文乃的幸福理论](http://www.bilibili.tv/video/av552064/)  
+
 
 回忆起来的，依旧是家人的事情
 
@@ -62,7 +68,12 @@ tags: [Feelings]
 
 在欢乐中日渐西沉
 
-“感觉和大妈们似的”“这可是秘密哟”“没办法啊~~诶~~”“啊啦走掉啦~~”“不要逃掉啊~~”
+
+
+		“感觉和大妈们似的”
+		“这可是秘密哟”“没办法啊~~诶~~”
+		“啊啦走掉啦~~”“不要逃掉啊~~”
+
 
 春风再次来到，长大了的世界
 
@@ -128,6 +139,8 @@ tags: [Feelings]
 
           “最喜欢大家的啊”
 
-![文乃的幸福理论](/assets/images/2014/01/wennai2.jpg)
+</center>
+
+![文乃的幸福理论](/assets/images/2014/01/wennai1.jpg)
 
 
