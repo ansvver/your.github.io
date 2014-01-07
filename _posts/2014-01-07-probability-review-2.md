@@ -176,6 +176,27 @@ $$
 
 $$\Phi_X(s)=\phi_N(\ln(\phi _{x1}(s))))$$
 
+###中央极限定理
+
+- 若$$X_1,X_2,...，X_n$$为I.I.D.,则当$$n$$趋近于无穷大时:
+
+$$X=X_1+X_2+\cdots +X_n \sim N(\mu _{X1+X2+\cdots +Xn}, \sigma _{X1+X2+\cdots +Xn}^2)$$
+
+$$\mu _{X1+X2+\cdots +Xn}=\mu_{X1}+\mu_{X2}+\cdots +\mu_{Xn}$$
+
+$$\sigma _{X1+X2+\cdots +Xn}^2=\sigma_{X1}^2+\sigma_{X2}^2+\cdots +\sigma_{Xn}^2$$
+
+- CLT的应用
+	- 当要处理多个独立的随机变数的和时，可以用CLT将其概率分布近似为正态分布后计算概率
+	- 另若某概率分布等同于多个独立随机变量的和，此概率分布便可以用正态分布近似之，再计算概率 
+	- Ex:$$X\sim BIN(100,0.3)\Rightarrow \left\{X_i\right\}I.I.D.,X_i\sim Bernoulli(0.3)$$
+
+- De Moivre - Laplace Formula:
+
+$$\begin{aligned} 
+P(k_1\leqslant X\leqslant k_2)&\approx P(\frac{k_1-0.5-n\mu _{X1}}{\sqrt{n}\sigma_{X1}}\leqslant \frac{X-n\mu _{X1}}{\sqrt{n}\sigma_{X1}}\leqslant \frac{k_1+0.5-n\mu _{X1}}{\sqrt{n}\sigma_{X1}})\\
+&\approx \Phi (\frac{k_2+0.5-n\mu _{X1}}{\sqrt{n}\sigma_{X1}})-\Phi (\frac{k_2-0.5-n\mu _{X1}}{\sqrt{n}\sigma_{X1}})
+\end{aligned}$$
 
 
 
