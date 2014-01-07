@@ -51,3 +51,17 @@ CDF:F_{X\mid B}(x)=\int_{-\infty}^xf_{X\mid B}(u)du=\int_{-\infty \leqslant u \l
 $$
 
 - 关于条件概率的期望、方差都可在此基础上推出。
+
+###联合概率分布
+
+- 同时考虑多个随机变量的概率分布称之为联合概率分布(joint probability distribution)
+
+$$PMF:p_{X,Y}(x,y)=P(X=x,Y=y)$$
+
+$$CDF:F_{X,Y}(x,y)=P(X\leqslant x,Y\leqslant y)$$
+
+$$
+f_{X,Y}(x,y)=\frac{\partial ^2F_{X,Y}(x,y)}{\partial x\partial y} \\
+\Rightarrow F_{X,Y}(x,y)=\int_{-\infty}^x\int_{-\infty}^yf_{X,Y}(u,v)dvdu
+$$
+
