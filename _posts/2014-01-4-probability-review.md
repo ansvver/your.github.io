@@ -309,7 +309,7 @@ F_X(x)&=P(X\leqslant x) \\
 \end{aligned}
 $$
 
-<center><a href="http://pan.baidu.com/share/link?shareid=2338785072&uk=4130601504">[点击查看标准正态分布表]</a></center>
+<center><a href="http://pan.baidu.com/share/link?shareid=2338785072&uk=4130601504" target="_blank">[点击查看标准正态分布表]</a></center>
 
 ###大数法则
 
