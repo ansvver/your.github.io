@@ -10,7 +10,7 @@ tags: [Math, Probability]
 
 应该是年前挖下的坑了，赶在应用概率统计考试之前补一下。
 
-以下内容多为[葉丙成_Benson](http://weibo.com/yehbo)老师机率课上的一些笔记，略为基础，但却时不时会被遗忘，写下来做一次Review.
+以下内容多为<a href="http://weibo.com/yehbo" target="_blank">葉丙成_Benson</a>老师机率课上的一些笔记，略为基础，但却时不时会被遗忘，写下来做一次Review.
 
 ###概率与统计的不同
    
