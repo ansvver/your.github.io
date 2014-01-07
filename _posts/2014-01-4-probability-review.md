@@ -352,10 +352,12 @@ $$\sigma _X^2=E[(X-\mu _X)^2]=E[X^2]-\mu _X^2$$
 $$E[X^2]=\sigma _X^2+\mu _X^2$$
 
 - 常见离散分布的期望与方差
-
+<center>
 |Distribution|$$\mu _X$$|$$\sigma _X^2$$|
 |:-----------|:----------------:|------------:|
 |$$X\sim Bernouli(p)$$|b1|c1|
 |a2|b2|c2|
+
+</center>
 
 
