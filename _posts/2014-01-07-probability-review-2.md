@@ -317,7 +317,7 @@ $$\sigma _{X1+X2+\cdots +Xn}^2=\sigma_{X1}^2+\sigma_{X2}^2+\cdots +\sigma_{Xn}^2
 	- Ex:$$X\sim BIN(100,0.3)\Rightarrow \left\{X_i\right\}I.I.D.,X_i\sim Bernoulli(0.3)$$
 
 <br />
-- De Moivre - Laplace Formula，结果更确:
+- De Moivre - Laplace Formula，结果更精确:
 
 $$\begin{aligned} 
 P(k_1\leqslant X\leqslant k_2)&\approx P(\frac{k_1-0.5-n\mu _{X1}}{\sqrt{n}\sigma_{X1}}\leqslant \frac{X-n\mu _{X1}}{\sqrt{n}\sigma_{X1}}\leqslant \frac{k_1+0.5-n\mu _{X1}}{\sqrt{n}\sigma_{X1}})\\
