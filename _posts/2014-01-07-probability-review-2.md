@@ -163,11 +163,14 @@ $$
 $$\left\{X_i\right\} \ I.I.D.\\
 Independently\ and\ Identically\ Distributed$$
 
-- $$X=X_1+X_2+\cdots +X_n$$,n为常数，求$$X$$的概率分布
+- $$X=X_1+X_2+\cdots +X_n$$,$$n$$为常数，求$$X$$的概率分布
 
-$$\phi_X(s)=[\phi _X_1(s)]^n$$
+$$\begin{aligned}
+\phi_X(s)=[\phi _X_1(s)]^n
+\end{aligned}
+$$
 
-- $$X_1,X_2,...I.I.D.$$，$$X=X_1+X_2+\cdots +X_N$$，若N本身也为随机变量
+- $$X_1,X_2,...I.I.D.$$，$$X=X_1+X_2+\cdots +X_N$$，若$$N$$本身也为随机变量
 
 $$
 N:p_N(n)\ given\\
@@ -175,7 +178,9 @@ N:p_N(n)\ given\\
 $$
 
 $$
+\begin{aligned}
 \phi _X(s)=\phi _N(\ln (\phi _x_1(s))))
+\end{aligned}
 $$
 
 
