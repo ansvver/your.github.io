@@ -199,8 +199,8 @@ P(k_1\leqslant X\leqslant k_2)&\approx P(\frac{k_1-0.5-n\mu _{X1}}{\sqrt{n}\sigm
 &\approx \Phi (\frac{k_2+0.5-n\mu _{X1}}{\sqrt{n}\sigma_{X1}})-\Phi (\frac{k_2-0.5-n\mu _{X1}}{\sqrt{n}\sigma_{X1}})
 \end{aligned}$$
 
-<center>■完■</center>
-
+<center>■ 完 ■</center>
+<center>lol</center>
 -----
 更详尽的课程内容还是回去复习吧：P
 
