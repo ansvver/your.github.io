@@ -73,7 +73,7 @@ $$f_{x,y}(x,y)\geqslant 0$$
 
 $$\int_{-\infty}^\infty f_{X,Y}(x,y)dxdy=1$$
 
-$$if\ x,y\ independed\Rightarrow f_{X,Y}(x,y)=f_X(x)\cdot f_Y(y)$$
+$$if\ x,y\ independent\Rightarrow f_{X,Y}(x,y)=f_X(x)\cdot f_Y(y)$$
 
 $$
 \begin{aligned} 
@@ -102,7 +102,7 @@ $$PMF:E[h(X,Y)]=\sum_{x=-\infty}^{\infty}\sum_{y=-\infty}^{\infty}h(x,y)\cdot p_
 
 $$PDF:E[h(X,Y)]=\int_{-\infty}^\infty \int_{-\infty}^\infty h(x,y)\cdot f_{X,Y}(x,y)dxdy$$
 
-$$if\ x,y\ independed\Rightarrow E[g(X)h(Y)]=E[g(X)]\cdot E[h(Y)]$$
+$$if\ x,y\ independent\Rightarrow E[g(X)h(Y)]=E[g(X)]\cdot E[h(Y)]$$
 
 - 方差
 
@@ -115,7 +115,7 @@ Var(X+Y)&=E[(X+Y-E[X+Y])^2] \\
 $$
 
 $$
-if\ X,Y\ independed\Rightarrow Var(X+Y)=Var(X) + Var(Y)
+if\ X,Y\ independent\Rightarrow Var(X+Y)=Var(X) + Var(Y)
 $$
 
 ###随机变量之和
@@ -156,7 +156,27 @@ $$
 
 ![mgf](/assets/images/2014/01/mgf.png)
 
+###独立随机变量之和
 
+- $$X_1,X_2,...$$独立且各自都有一模一样的概率分布，表示为
+
+$$\left\{X_i\right\} \ I.I.D.\\
+Independently\ and\ Identically\ Distributed$$
+
+- $$X=X_1+X_2+\cdots +X_n$$,n为常数，求$$X$$的概率分布
+
+$$\phi_X(s)=[\phi _X_1(s)]^n$$
+
+- $$X_1,X_2,...I.I.D.$$，$$X=X_1+X_2+\cdots +X_N$$，若N本身也为随机变量
+
+$$
+N:p_N(n)\ given\\
+\Rightarrow \phi _N(\widetilde{s})=\sum _{n=0}^\infty e^{\widehat{s}n}\cdot p_N(n)
+$$
+
+$$
+\phi _X(s)=\phi _N(\ln (\phi _x_1(s))))
+$$
 
 
 
