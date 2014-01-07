@@ -165,7 +165,6 @@ Independently\ and\ Identically\ Distributed$$
 
 - $$X=X_1+X_2+\cdots +X_n$$,$$n$$为常数，求$$X$$的概率分布
 
-$$\Phi_X(s)=[\phi_X_1(s)]^n$$
 
 - $$X_1,X_2,...I.I.D.$$，$$X=X_1+X_2+\cdots +X_N$$，若$$N$$本身也为随机变量
 
@@ -174,7 +173,7 @@ N:p_N(n)\ given\\
 \Rightarrow \phi _N(\widetilde{s})=\sum _{n=0}^\infty e^{\widehat{s}n}\cdot p_N(n)
 $$
 
-$$\Phi_X(s)=\phi_N(\ln(\phi _x_1(s))))$$
+
 
 
 
