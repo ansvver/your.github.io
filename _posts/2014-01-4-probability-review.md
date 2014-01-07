@@ -112,9 +112,9 @@ $$F_X(x)=\sum_{n=-\infty }^{\left \lfloor x \right \rfloor}P_X(n)$$
 
 - 连续随机变量每点发生的概率均是0.因此不能用PMF来计算。
 - 如果我们想知道连续随机变数在各个点上的概率分布，可以用密度的方式来表示。
-- 对随机变量X而言，其概率密度：
+- 对随机变量X而言，其概率密度PDF：
 
-$$PDF:f_X(x)&=F'_X(x)$$
+$$f_X(x)=F'_X(x)$$
 
 ![PDF](/assets/images/2014/01/cdf2pdf.png "PDF")
 
