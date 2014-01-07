@@ -61,7 +61,86 @@ $$PMF:p_{X,Y}(x,y)=P(X=x,Y=y)$$
 $$CDF:F_{X,Y}(x,y)=P(X\leqslant x,Y\leqslant y)$$
 
 $$
-f_{X,Y}(x,y)=\frac{\partial ^2F_{X,Y}(x,y)}{\partial x\partial y} \\
-\Rightarrow F_{X,Y}(x,y)=\int_{-\infty}^x\int_{-\infty}^yf_{X,Y}(u,v)dvdu
+\begin{aligned}
+&f_{X,Y}(x,y)=\frac{\partial ^2F_{X,Y}(x,y)}{\partial x\partial y} \\
+\Rightarrow &F_{X,Y}(x,y)=\int_{-\infty}^x\int_{-\infty}^yf_{X,Y}(u,v)dvdu
+ \end{aligned}
 $$
+
+- 联合PDF的性质
+
+$$f_{x,y}(x,y)\geqslant 0$$
+
+$$\int_{-\infty}^\infty f_{X,Y}(x,y)dxdy=1$$
+
+$$if\ x,y\ independed\Rightarrow f_{X,Y}(x,y)=f_X(x)\cdot f_Y(y)$$
+
+$$
+\begin{aligned} 
+for\ event\ B,&\\
+&P(B)=\iint_{(x,y)\in B}f_{X,Y}(x,y)dxdy
+\end{aligned}
+$$
+
+###边际概率分布
+
+- 对于离散情形，$$X$$和$$Y$$的边际分布分别为：
+
+$$p_X(x)=\sum_yp_{X,Y}(x,y)$$
+
+$$p_Y(y)=\sum_xp_{X,Y}(x,y)$$
+
+- 对于连续情形，$$X$$和$$Y$$的边际分布分别为：
+
+$$f_X(x)=\int_{-\infty}^\infty f_{X,Y}(x,y)dy$$
+
+$$f_X(y)=\int_{-\infty}^\infty f_{X,Y}(x,y)dx$$
+
+- 期望值
+
+$$PMF:E[h(X,Y)]=\sum_{x=-\infty}^{\infty}\sum_{y=-\infty}^{\infty}h(x,y)\cdot p_{X,Y} (x,y)$$
+
+$$PDF:E[h(X,Y)]=\int_{-\infty}^\infty \int_{-\infty}^\infty h(x,y)\cdot f_{X,Y}(x,y)dxdy$$
+
+$$if\ x,y\ independed\Rightarrow E[g(X)h(Y)]=E[g(X)]\cdot E[h(Y)]$$
+
+- 方差
+
+$$
+\begin{aligned}
+Var(X+Y)&=E[(X+Y-E[X+Y])^2] \\
+&=E[(X-\mu _X)^2]+Var((Y-\mu _Y)^2)+2E[(X-\mu _X)(Y-\mu _Y)] \\
+&=Var(x)+Var(y)+2Cov(X,Y) \\
+\end{aligned}
+$$
+
+$$
+if\ X,Y\ independed\Rightarrow Var(X+Y)=Var(X) + Var(Y)
+$$
+
+###随机变量之和
+
+- 若$$X,Y$$独立
+
+![Z](/assets/images/2014/01/z.png)
+
+- 考虑不只两个随机变量的情形，求和的分布的需要多次卷积（摺积）(convolution),很复杂。用MGF转换问题。
+
+###MGF(Moment Generation Function)
+
+- MGF$$\phi _X(s)$$定义：
+
+$$\phi _X(s)=E[e^{sX}]=\begin{cases}
+\sum_{x=-\infty}^\inftye^{sx}\cdot p_X(x) &(discreted)\\ 
+\int_{-\infty}^\infty e^{sx}\cdot f_X(x)dx & (continue)
+\end{cases}$$
+
+- 逆转换通常靠查表
+
+
+
+
+
+
+
 
