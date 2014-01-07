@@ -440,3 +440,11 @@ $$\sigma _X^2=\sigma ^2$$
 $$\mu _X=\frac{a+b}{2}$$  
 $$\sigma _X^2=\frac{1}{12}(b-a)^2$$
 
+###随机变量X的函数分布
+
+- 随机变量$$X$$的任意函数$$g(X)$$也是一个随机变量，通常称之为Derived Random Variable。
+
+- 若X为离散：直接推g(X)的PMF
+
+- 若X为连续：先推g(X)的CDF，再微分得PDF
+
