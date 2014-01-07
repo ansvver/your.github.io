@@ -10,6 +10,133 @@ tags: [Math, Probability]
 
 由于篇幅关系，此Review拆分为两部分，第一部分：<a href="http://yabuhoo.com/%E6%95%B0%E5%AD%A6%E5%A5%A5%E4%B9%89/2014-01/probability-review.html" target="_blank">迷のProbability Review</a>。
 
+###大数法则
+
+- 根据大数法则，
+
+$$\lim_{N\rightarrow \infty}\frac{N_x}{N}=P_X(x)\Rightarrow \lim_{N\rightarrow \infty}mean=\lim_{N\rightarrow \infty }\sum_{x=1}^{n}x\frac{N_x}{N}=\sum_{x=1}^nx\cdot P_X(x)$$
+
+<!-- more -->
+
+###离散分布の期望值(Expectation)及方差(Variance)
+
+- 对离散随机变量X而言，定义其期望值
+
+$$E[X]=\mu _X=\sum_{x=-\infty }^\infty x\cdot P_X(x)$$
+
+- 对于任一离散随机变量X而言，其任意函数$$g(X)$$亦是一随机变量，亦有期望值
+
+$$E[g(X)]=\sum_{x=-\infty }^\infty g(x)\cdot P_X(x)$$
+
+- 性质
+
+$$E[\alpha g(X)+\beta h(X)=\alpha \cdot E[g(X)] + \beta \cdot E[h(X)]$$
+
+$$E[\alpha ]=\alpha $$
+
+- $$X$$的$$n^{th}$$moment:
+
+$$E[X^n]=\sum_{x=-\infty }^\infty x^n\cdot P_X(x)$$
+
+- Variance通常符号表示为$$\sigma _X^2=E[(X-\mu _X)^2]$$
+
+- 方差（变异数）隐含关于随机变量X多“乱”的信息。
+
+![Variance](/assets/images/2014/01/variance.png)
+
+- 标准差定义为方差的平方根：$$\sigma _X$$
+
+- 两个常用公式
+
+$$\sigma _X^2=E[(X-\mu _X)^2]=E[X^2]-\mu _X^2$$
+
+$$E[X^2]=\sigma _X^2+\mu _X^2$$
+
+- 常见离散分布的期望与方差
+	- $$X\sim Bernouli(p)$$  
+$$\mu _X=p$$  
+$$\sigma _X^2=p(1-p)$$
+
+
+	- $$X\sim BIN(n,p)$$  
+$$\mu _X=np$$  
+$$\sigma _X^2=np(1-p)$$
+
+
+	- $$X\sim GEO(p)$$  
+$$\mu _X=\frac{1}{p}$$  
+$$\sigma _X^2=\frac{1-p}{p^2}$$
+
+
+	- $$X\sim PASKAL(k,p)$$  
+$$\mu _X=\frac{k}{p}$$  
+$$\sigma _X^2=\frac{k(1-p)}{p^2}$$
+
+
+	- $$X\sim POI(\alpha )$$  
+$$\mu _X=\alpha $$  
+$$\sigma _X^2=\alpha $$
+
+
+	- $$X\sim UNIF(a,b)$$  
+$$\mu _X=\frac{a+b}{2}$$  
+$$\sigma _X^2=\frac{1}{12}(b-a)(b-a+2)$$
+
+###连续分布の期望值(Expectation)及方差(Variance)
+
+- 对于连续随机变量$$X$$，其期望定义为
+
+$$E[X]=\int _{-\infty }^\infty xf_X(x)dx$$
+
+- 对于任一连续随机变量X而言，其任意函数$$g(X)$$亦是一随机变量，亦有$$g(X)$$期望值
+
+$$E[g(X)]=\int _{-\infty }^\infty g(x)f_X(x)dx$$
+
+- 性质
+
+$$E[\alpha g(X)+\beta h(X)=\alpha \cdot E[g(X)] + \beta \cdot E[h(X)]$$
+
+- $$X$$的$$n^{th}$$moment:
+
+$$E[X^n]=\int _{-\infty }^\infty x^nf_X(x)dx$$
+
+- Variance
+
+$$\sigma _X^2=E[(X-\mu )^2]=\int _{-\infty }^\infty (x-\mu _x)^2f_X(x)dx$$
+
+- 方差（变异数）隐含关于随机变量X多“乱”的信息。
+
+![Variance](/assets/images/2014/01/variance2.png)
+
+- 标准差定义为方差的平方根：$$\sigma _X$$
+
+- 两个常用公式
+
+$$\sigma _X^2=E[(X-\mu _X)^2]=E[X^2]-\mu _X^2$$
+
+$$E[X^2]=\sigma _X^2+\mu _X^2$$
+
+- 常见连续分布的期望与方差
+
+	- $$X\sim Exponential(\lambda )$$  
+$$\mu _X=\frac{1}{\lambda }$$  
+$$\sigma _X^2=\frac{1}{\lambda ^2}$$
+
+
+	- $$X\sim Erlang(n,\lambda )$$  
+$$\mu _X=\frac{n}{\lambda }$$  
+$$\sigma _X^2=\frac{n}{\lambda ^2}$$
+
+
+	- $$X\sim Gaussian(\mu ,\sigma )$$  
+$$\mu _X=\mu $$  
+$$\sigma _X^2=\sigma ^2$$
+
+
+	- $$X\sim UNIF(a,b)$$  
+$$\mu _X=\frac{a+b}{2}$$  
+$$\sigma _X^2=\frac{1}{12}(b-a)^2$$
+
 ###随机变量X的函数分布
 
 - 随机变量$$X$$的任意函数$$g(X)$$也是一个随机变量，通常称之为Derived Random Variable。
@@ -23,8 +150,6 @@ $$p_{g(X)}(y)=\sum_{x,g(x)=y}p_X(x)$$
 $$F_{g(x)}(y)=P[g(X)\leqslant y]$$
 
 $$f_{g(X)}(y)=\frac{d}{dy}F_{g(X)}(y)$$
-
-<!-- more -->
 
 ###条件概率
 
