@@ -131,7 +131,7 @@ $$
 - MGF$$\phi _X(s)$$定义：
 
 $$\phi _X(s)=E[e^{sX}]=\begin{cases}
-\sum_{x=-\infty}^\inftye^{sx}\cdot p_X(x) &(discreted)\\ 
+\sum_{x=-\infty}^\infty e^{sx}\cdot p_X(x) &(discreted)\\ 
 \int_{-\infty}^\infty e^{sx}\cdot f_X(x)dx & (continue)
 \end{cases}$$
 
