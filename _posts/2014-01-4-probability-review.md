@@ -114,9 +114,13 @@ $$F_X(x)=\sum_{n=-\infty }^{\left \lfloor x \right \rfloor}P_X(n)$$
 - 如果我们想知道连续随机变数在各个点上的概率分布，可以用密度的方式来表示。
 - 对随机变量X而言，其概率密度：
 
-![PDF](/assets/images/2014/01/pdf.png "PDF")
+$$PDF:f_X(x)&=F'_X(x)$$
 
-![PDF](/assets/images/2014/01/pdf2.png "PDF")
+![PDF](/assets/images/2014/01/cdf2pdf.png "PDF")
+
+$$P(a<X\leqslant b)=F_X(b)-F_X(a)=\int _a^bf_X(x)dx$$
+
+![PDF](/assets/images/2014/01/pdf3.png "PDF")
 
 - PDF有如下性质
 
