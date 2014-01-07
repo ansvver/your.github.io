@@ -381,5 +381,58 @@ $$\sigma _X^2=\alpha $$
 $$\mu _X=\frac{a+b}{2}$$  
 $$\sigma _X^2=\frac{1}{12}(b-a)(b-a+2)$$
 
+###连续分布の期望值(Expectation)及方差(Variance)
 
+- 对于连续随机变量$$X$$，其期望定义为
+
+$$E[X]=\int _{-\infty }^\infty xf_X(x)dx$$
+
+- 对于任一连续随机变量X而言，其任意函数$$g(X)$$亦是一随机变量，亦有$$g(X)$$期望值
+
+$$E[g(X)]=\int _{-\infty }^\infty g(x)f_X(x)dx$$
+
+- 性质
+
+$$E[\alpha g(X)+\beta h(X)=\alpha \cdot E[g(X)] + \beta \cdot E[h(X)]$$
+
+- $$X$$的$$n^{th}$$moment:
+
+$$E[X^n]=\int _{-\infty }^\infty x^nf_X(x)dx$$
+
+- Variance
+
+$$\sigma _X^2=E[(X-\mu )^2]=\int _{-\infty }^\infty (x-\mu _x)^2f_X(x)dx$$
+
+- 方差（变异数）隐含关于随机变量X多“乱”的信息。
+
+![Variance](/assets/images/2014/01/variance2.png)
+
+- 标准差定义为方差的平方根：$$\sigma _X$$
+
+- 两个常用公式
+
+$$\sigma _X^2=E[(X-\mu _X)^2]=E[X^2]-\mu _X^2$$
+
+$$E[X^2]=\sigma _X^2+\mu _X^2$$
+
+- 常见连续分布的期望与方差
+
+	- $$X\sim Exponential(\lambda )$$  
+$$\mu _X=\frac{1}{\lambda }$$  
+$$\sigma _X^2=\frac{1}{\lambda ^2}$$
+
+
+	- $$X\sim Erlang(n,\lambda )$$  
+$$\mu _X=\frac{n}{\lambda }$$  
+$$\sigma _X^2=\frac{n}{\lambda ^2}$$
+
+
+	- $$X\sim Gaussian(\mu ,\sigma )$$  
+$$\mu _X=\mu $$  
+$$\sigma _X^2=\sigma ^2$$
+
+
+	- $$X\sim UNIF(a,b)$$  
+$$\mu _X=\frac{a+b}{2}$$  
+$$\sigma _X^2=\frac{1}{12}(b-a)^2$$
 
