@@ -10,7 +10,7 @@ tags: [Math, Probability]
 
 应该是年前挖下的坑了，赶在应用概率统计考试之前补一下。
 
-以下内容多为一些笔记，略为基础，但却时不时会被遗忘，写下来做一次Review.
+以下内容多为[葉丙成_Benson](http://weibo.com/yehbo)老师机率课上的一些笔记，略为基础，但却时不时会被遗忘，写下来做一次Review.
 
 ###概率与统计的不同
    
@@ -308,4 +308,54 @@ F_X(x)&=P(X\leqslant x) \\
 &=\Phi (\frac{x-\mu }{\sigma })
 \end{aligned}
 $$
+
+[标准正态分布表](http://pan.baidu.com/share/link?shareid=2338785072&uk=4130601504)
+
+###大数法则
+
+- 根据大数法则，
+
+$$\lim_{N\rightarrow \infty}\frac{N_x}{N}=P_X(x)\Rightarrow \lim_{N\rightarrow \infty}mean=\lim_{N\rightarrow \infty }\sum_{x=1}^{n}x\frac{N_x}{N}=\sum_{x=1}^nx\cdot P_X(x)$$
+
+###离散分布の期望值(Expectation)及方差(Variance)
+
+- 对离散随机变量X而言，定义其期望值
+
+$$E[X]=\mu _X=\sum_{x=-\infty }^\infty x\cdot P_X(x)$$
+
+- 对于任一离散随机变量X而言，其任意函数$$g(X)$$亦是一随机变量，亦有期望值
+
+$$E[g(X)]=\sum_{x=-\infty }^\infty g(x)\cdot P_X(x)$$
+
+- 性质
+
+$$E[\alpha g(X)+\beta h(X)=\alpha \cdot E[g(X)] + \beta \cdot E[h(X)]$$
+
+$$E[\alpha ]=\alpha $$
+
+- $$X$$的$$n^{th}$$moment:
+
+$$E[X^n]=\sum_{x=-\infty }^\infty x^n\cdot P_X(x)$$
+
+- Variance通常符号表示为$$\sigma _X^2=E[(X-\mu _X)^2]$$
+
+- 方差（变异数）隐含关于随机变量X多“乱”的信息。
+
+![Variance](/assets/images/2014/01/variance.png)
+
+- 标准差定义为方差的平方根：$$\sigma _X$$
+
+- 两个常用公式
+
+$$\sigma _X^2=E[(X-\mu _X)^2]=E[X^2]-\mu _X^2$$
+
+$$E[X^2]=\sigma _X^2+\mu _X^2$$
+
+- 常见离散分布的期望与方差
+
+|Distribution|$$\mu _X$$|$$\sigma _X^2$$|
+|:-----------|:----------------:|------------:|
+|$$X\sim Bernouli(p)$$|b1|c1|
+|a2|b2|c2|
+
 
