@@ -137,6 +137,26 @@ $$\phi _X(s)=E[e^{sX}]=\begin{cases}
 
 - 逆转换通常靠查表
 
+- Why named "Moment Generation Funtion"
+	- Discreted case:  
+![whymgf](/assets/images/2014/01/whymgf.png)
+	- Continue case:  
+![whymgf](/assets/images/2014/01/whymgf2.png)
+
+- 性质
+
+$$
+\begin{aligned}
+Y=aX+b \\
+&\phi_Y(s)=E[e^{sY}]=E[e^{s(aX+b)}]=e^{sb}\cdot \phi_X(as)
+\end{aligned}
+$$
+
+- 常见概率分布MGF及特征方程
+
+![mgf](/assets/images/2014/01/mgf.png)
+
+
 
 
 
