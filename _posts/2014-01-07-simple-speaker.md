@@ -82,7 +82,7 @@ tags: [Android, Programing]
 
 ###源码下载
 
-Git:[jeffywong / android-simple-radio](https://github.com/jeffywong/android-simple-radio)
+Git: <a href="https://github.com/jeffywong/android-simple-radio" target="_blank">jeffywong/android-simple-radio</a>
 
 Enjoy it!
 
