@@ -25,7 +25,7 @@ tags: [Android, Programing]
 
 <!-- more -->
 
-![Main](/assets/images/2014/01/speaker1.png)
+- ![Main](/assets/images/2014/01/speaker1.png)
 
 ###前、后端
 
@@ -43,7 +43,9 @@ tags: [Android, Programing]
 3. 下载音频
 4. 录音、播放
 
-由上
+由上可看出，前后端交互的主要环节在于登录与上传下载。
+
+
 
 
 
