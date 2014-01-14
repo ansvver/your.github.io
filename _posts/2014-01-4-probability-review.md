@@ -317,6 +317,6 @@ $$
 
 -------
 
-由于篇幅关系，此Review拆分为两部分，第二部分：<a href="http://yabuhoo.com/%E6%95%B0%E5%AD%A6%E5%A5%A5%E4%B9%89/2014-01/probability-review-2.html" target="_blank">迷のProbability Review·续</a>。
+由于篇幅关系，此Review拆分为两部分，第二部分：<a href="http://yabuhoo.com/2014-01/probability-review-2.html" target="_blank">迷のProbability Review·续</a>。
 
-转载请注明出处：[迷のProbability Review](http://yabuhoo.com/%E6%95%B0%E5%AD%A6%E5%A5%A5%E4%B9%89/2014-01/probability-review.html)
+转载请注明出处：[迷のProbability Review](http://yabuhoo.com/2014-01/probability-review.html)

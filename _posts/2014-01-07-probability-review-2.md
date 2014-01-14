@@ -8,7 +8,7 @@ tags: [Math, Probability]
 ---
 {% include JB/setup %}
 
-由于篇幅关系，此Review拆分为两部分，第一部分：<a href="http://yabuhoo.com/%E6%95%B0%E5%AD%A6%E5%A5%A5%E4%B9%89/2014-01/probability-review.html" target="_blank">迷のProbability Review</a>。
+由于篇幅关系，此Review拆分为两部分，第一部分：<a href="http://yabuhoo.com/2014-01/probability-review.html" target="_blank">迷のProbability Review</a>。
 
 ###大数法则
 
@@ -330,7 +330,7 @@ P(k_1\leqslant X\leqslant k_2)&\approx P(\frac{k_1-0.5-n\mu _{X1}}{\sqrt{n}\sigm
 -----
 更详尽的课程内容还是回去复习吧：P
 
-转载请注明出处：[迷のProbability Review·续](http://yabuhoo.com/%E6%95%B0%E5%AD%A6%E5%A5%A5%E4%B9%89/2014-01/probability-review-2.html)
+转载请注明出处：[迷のProbability Review·续](http://yabuhoo.com/2014-01/probability-review-2.html)
 
 
 
