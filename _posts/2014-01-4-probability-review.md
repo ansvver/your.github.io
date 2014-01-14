@@ -50,7 +50,7 @@ $$P(C_{j}|A)=\frac{P(A|C_{j})P(C_{j})}{P(A|C_{1})P(C_{1})+P(A|C_{2})P(C_{2})+...
 $$\Leftrightarrow$$
 $$\frac{P(C_{j}\cap A)}{P(A)}=\frac{P(A|C_{j})P(C_{j})}{\sum_{i=1}^{n}P(A|C_{i})P(C_{i})}$$
 
-- 这里有一个好玩的问题，有兴趣可参见我之前的一篇文章[Monty Hall problem](http://yabuhoo.com/%E6%95%B0%E5%AD%A6%E5%A5%A5%E4%B9%89/2013-10/monty-hall-problem.html "Monty Hall problem")。
+- 这里有一个好玩的问题，有兴趣可参见我之前的一篇文章[Monty Hall problem](http://yabuhoo.com/monty-hall-problem.html "Monty Hall problem")。
 
 ###概率的独立性
 
@@ -317,6 +317,6 @@ $$
 
 -------
 
-由于篇幅关系，此Review拆分为两部分，第二部分：<a href="http://yabuhoo.com/2014-01/probability-review-2.html" target="_blank">迷のProbability Review·续</a>。
+由于篇幅关系，此Review拆分为两部分，第二部分：<a href="http://yabuhoo.com/probability-review-2.html" target="_blank">迷のProbability Review·续</a>。
 
-转载请注明出处：[迷のProbability Review](http://yabuhoo.com/2014-01/probability-review.html)
+转载请注明出处：[迷のProbability Review](http://yabuhoo.com/probability-review.html)
