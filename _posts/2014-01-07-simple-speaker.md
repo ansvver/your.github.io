@@ -23,7 +23,7 @@ tags: [Android, Programing]
 
 各个终端通过网络，与服务器通讯：
 
-<!-- more-->
+<!-- more -->
 
 ![Main](/assets/images/2014/01/speaker1.png)
 
