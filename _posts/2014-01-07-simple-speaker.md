@@ -76,7 +76,10 @@ tags: [Android, Programing]
 
 ![Multisend](/assets/images/2014/01/multisend.png)
 
+###功能截图
 
+![](/assets/images/2014/01/login_layout.png)
+![](/assets/images/2014/01/message_layout.png)
 
 
 
