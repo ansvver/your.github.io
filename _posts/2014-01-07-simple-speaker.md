@@ -65,12 +65,15 @@ tags: [Android, Programing]
 此Toycode采用的是TCP+UDP，用到的一些消息定义如下图s：
 
 - 登录：
+
 - ![Login](/assets/images/2014/01/login.png)
 
 - 下载：
+
 - ![Get](/assets/images/2014/01/get.png)
 
 - 上传与群发：
+
 - ![Multisend](/assets/images/2014/01/multisend.png)
 
 
