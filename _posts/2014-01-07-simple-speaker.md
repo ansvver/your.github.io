@@ -66,15 +66,15 @@ tags: [Android, Programing]
 
 - 登录：
 
-- ![Login](/assets/images/2014/01/login.png)
+![Login](/assets/images/2014/01/login.png)
 
 - 下载：
 
-- ![Get](/assets/images/2014/01/get.png)
+![Get](/assets/images/2014/01/get.png)
 
 - 上传与群发：
 
-- ![Multisend](/assets/images/2014/01/multisend.png)
+![Multisend](/assets/images/2014/01/multisend.png)
 
 
 
