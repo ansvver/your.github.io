@@ -78,7 +78,7 @@ tags: [Android, Programing]
 
 ###功能截图
 
-![](/assets/images/2014/01/login_layout.png)![](/assets/images/2014/01/message_layout.png)
+![login_layout](/assets/images/2014/01/login_layout.png)![message_layout](/assets/images/2014/01/message_layout.png)
 
 ###源码下载
 
