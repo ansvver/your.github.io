@@ -16,13 +16,13 @@ markdown: kramdown
 #
 title : Yabuhoo!
 tagline: Site Tagline
-keywords : linux, algorithm, internet, DM, yabuhoo, geek, github
+keywords : linux, algorithm, internet, ML, DM, yabuhoo, geek, github
 description: Yabuhoo!
 author :
   name : Yabuhoo!
-  email : jeffydev@gmail.com
-  github : jeffywong
-  twitter : jeffydev
+  email : edwardwang.dev@gmail.com
+  github : edwardwang.dev
+  twitter : edwangcn
   facebook : 
   feedburner : 
   weibo : u/3777448665
