@@ -59,6 +59,8 @@ tags: [Google, Geek]
 |inurl:|限制搜索的网页的地址|inurl:keyword|
 |site:|限制所进行的搜索在指定的域名或网站内|site:domain|
 
+<br />
+
 其他类似的还有`location:uk`、`music:"Let it go"`、`movie:guangzhou`(`film:guangzhou`)等，可自行发掘。
 
 <br />
@@ -72,10 +74,10 @@ tags: [Google, Geek]
 
 ### Google专业搜索
 
-* 博客谷歌:[https://www.google.com.hk/blogsearch](https://www.google.com.hk/blogsearch)
-* GoogLinux:[http://www.googlinux.com/](http://www.googlinux.com/)
-* 谷歌学术:[http://scholar.google.com/](http://scholar.google.com/)
-* 谷歌电影:[http://www.google.com.hk/movies](http://www.google.com.hk/movies)
+* 博客谷歌：[https://www.google.com.hk/blogsearch](https://www.google.com.hk/blogsearch)
+* GoogLinux：[http://www.googlinux.com/](http://www.googlinux.com/)
+* 谷歌学术：[http://scholar.google.com/](http://scholar.google.com/)
+* 谷歌电影：[http://www.google.com.hk/movies](http://www.google.com.hk/movies)
 
 
 
