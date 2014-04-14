@@ -61,6 +61,7 @@ tags: [Google, Geek]
 |inurl:|限制搜索的网页的地址|inurl:keyword|
 |site:|限制所进行的搜索在指定的域名或网站内|site:domain|
 
+<br/>
 其他类似的还有`location:uk`、`music:"Let it go"`、`movie:guangzhou`(`film:guangzhou`)等，可自行发掘。
 
 <br />
