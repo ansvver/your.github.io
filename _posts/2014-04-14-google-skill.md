@@ -8,7 +8,7 @@ tags: [Google, Geek]
 ---
 {% include JB/setup %}
 
-![Google](/assets/images/2014/04/google.jpg)
+![Google](/assets/images/2014/04/google.png)
 
 必须承认，在此之前我使用[Google](https://www.google.com.hk/)还只是输入几个关键词，然后按`Enter`或者`搜索`按钮，如果你也一样，那么只能说你以前也白用Google了（为什么我说了个“也”= =）。
 
@@ -66,6 +66,7 @@ tags: [Google, Geek]
 * GoogLinux:[http://www.googlinux.com/](http://www.googlinux.com/)
 * 谷歌学术:[http://scholar.google.com/](http://scholar.google.com/)
 * 谷歌电影:[http://www.google.com.hk/movies](http://www.google.com.hk/movies)
+
 
 
 
