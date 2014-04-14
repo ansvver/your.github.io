@@ -26,9 +26,13 @@ tags: [Google, Geek]
 
 当你不想包括某个关键词的页面出现时，可以用`-`，例如`WordA -WordB`表示关键词包含单词A但是不包含单词B。
 
+<br />
+
 ### 技巧2. 搜索特定的词组
 
 有时候用`“”`修饰你想搜的关键词会有意想不到的惊喜，它表示这个（或多个）关键词是一个精确的词组，简单粗暴！
+
+<br />
 
 ### 技巧3. 寻找相似页面
 
@@ -37,6 +41,8 @@ tags: [Google, Geek]
 打开Google输入`related:`，再在后面加网址就可以了。当然，你也可以在普通搜索结果页面点击“相似网页”。
 
 <a href="https://www.google.com.hk/#newwindow=1&q=related:google.com&safe=strict" target="_blank">related:google.com</a>的结果居然没有天朝的百度，这是故意的吧= = 
+
+<br />
 
 ### 技巧4. 使用前缀精确搜索结果
 
@@ -55,10 +61,14 @@ tags: [Google, Geek]
 
 其他类似的还有`location:uk`、`music:"Let it go"`、`movie:guangzhou`(`film:guangzhou`)等，可自行发掘。
 
+<br />
+
 ### 其他小技巧
 
 * 想做些小运算，在Windows下找那个自带的计算器还要废不少功夫，直接打开[Google](https://www.google.com.hk/)输入你的算式吧，没错，它就是计算器。
 * 看看这几天的天气——[`weather guangzhou`](https://www.google.com.hk/#newwindow=1&q=weather+guangzhou&safe=strict)
+
+<br />
 
 ### Google专业搜索
 
