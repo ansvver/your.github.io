@@ -16,7 +16,7 @@ tags: [Google, Geek]
 
 下面总结几个有用的Google技巧：
 
-## 技巧1. 合理使用“与或非”搜索
+### 技巧1. 合理使用“与或非”搜索
 
 很多人可能没意识到，当你一次性、用空格隔开地键入几个词，然后点击搜索的话，Google会默认地认为这几个关键词为一个逻辑“与”（`AND`）的关系，即所搜出来的页面都是包含这几个关键词的。
 
@@ -26,11 +26,15 @@ tags: [Google, Geek]
 
 当你不想包括某个关键词的页面出现时，可以用`-`，例如`WordA -WordB`表示关键词包含单词A但是不包含单词B。
 
-## 技巧2. 搜索特定的词组
+<br />
+
+### 技巧2. 搜索特定的词组
 
 有时候用`“”`修饰你想搜的关键词会有意想不到的惊喜，它表示这个（或多个）关键词是一个精确的词组，简单粗暴！
 
-## 技巧3. 寻找相似页面
+<br />
+
+### 技巧3. 寻找相似页面
 
 喜欢某个网站，想找相似的网站有什么最快的方法？
 
@@ -38,7 +42,9 @@ tags: [Google, Geek]
 
 <a href="https://www.google.com.hk/#newwindow=1&q=related:google.com&safe=strict" target="_blank">related:google.com</a>的结果居然没有天朝的百度，这是故意的吧= = 
 
-## 技巧4. 使用前缀精确搜索结果
+<br />
+
+### 技巧4. 使用前缀精确搜索结果
 
 |算符|用途|用法|
 |:-----|:-------|:------|
@@ -53,15 +59,18 @@ tags: [Google, Geek]
 |inurl:|限制搜索的网页的地址|inurl:keyword|
 |site:|限制所进行的搜索在指定的域名或网站内|site:domain|
 
-<br/>
 其他类似的还有`location:uk`、`music:"Let it go"`、`movie:guangzhou`(`film:guangzhou`)等，可自行发掘。
 
-## 其他小技巧
+<br />
+
+### 其他小技巧
 
 * 想做些小运算，在Windows下找那个自带的计算器还要废不少功夫，直接打开[Google](https://www.google.com.hk/)输入你的算式吧，没错，它就是计算器。
 * 看看这几天的天气——[`weather guangzhou`](https://www.google.com.hk/#newwindow=1&q=weather+guangzhou&safe=strict)
 
-## Google专业搜索
+<br />
+
+### Google专业搜索
 
 * 博客谷歌:[https://www.google.com.hk/blogsearch](https://www.google.com.hk/blogsearch)
 * GoogLinux:[http://www.googlinux.com/](http://www.googlinux.com/)
