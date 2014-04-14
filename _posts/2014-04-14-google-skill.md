@@ -8,7 +8,25 @@ tags: [Google, Geek]
 ---
 {% include JB/setup %}
 
-<img src="/assets/images/2014/04/google2.png"/>
+<pre>
+                                                  
+                                                  
+        ift                                       
+      L    fG                       L             
+     L                              L             
+    ff                              L             
+    Li         ;  .L   ,  ;,  L .L  L  f  f       
+    LL         f   :L ;    ; L   Lj L j.  f       
+    LL    iLGG f    L ;    ; LL  L: L ff;         
+     Gf     G  L    L ;    ;  L. L  L ff          
+     jLj    G  Lj   j ,;   ;    G   G  LL         
+       GLGGG;   fLf    .;;:    tGG tLG  LLL       
+                             G    G               
+                            iL    G               
+                             GG  j                
+                                                  
+                                                  
+</pre>
 
 必须承认，在此之前我使用[Google](https://www.google.com.hk/)还只是输入几个关键词，然后按`Enter`或者`搜索`按钮，如果你也一样，那么只能说你以前也白用Google了（为什么我说了个“也”= =）。
 
