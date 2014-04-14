@@ -8,7 +8,7 @@ tags: [Google, Geek]
 ---
 {% include JB/setup %}
 
-[](/assets/images/2014/04/g.png)
+![](/assets/images/2014/04/g.png)
 
 必须承认，在此之前我使用[Google](https://www.google.com.hk/)还只是输入几个关键词，然后按`Enter`或者`搜索`按钮，如果你也一样，那么只能说你以前也白用Google了（为什么我说了个“也”= =）。
 
